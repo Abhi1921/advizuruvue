@@ -1,0 +1,47 @@
+{
+  "common": {
+    "home": "ダッシュボード"
+  },
+
+  "messages": {
+    "error": {
+      "max_character_exceeded": "{name} は19文字以下で入力してください。",
+      "failed_to_create": "{name}を作成できませんでした。",
+      "failed_to_update": "{name}を更新できませんでした。",
+      "failed_to_delete": "{name}を削除できませんでした。",
+      "failed_to_get": "{name}を取得できませんでした。",
+      "failed_to_login": "ログインに失敗しました。",
+      "failed_to_action": "{name}に失敗しました",
+      "unmatch_value": "{name1}/{name2}と一致するデータを見つけません。",
+      "bad_email_format": "無効なメール",
+      "unmatch_confirmation_email": "{name}と一致しません。",
+      "unmatch_password": "パスワードと一致しません。",
+      "required": "{name}は入力必須です。",
+      "invalid_format": "無効な形式",
+      "numeric": "数字で入力してください。",
+      "more_than": "{name}は{target}以上で入力してください。",
+      "less_than": "{name}は{target}以下で入力してください。",
+      "date_before": "{name}は{target}より前の日付を入力してください。",
+      "min_max": "{name}は{min}以上、{max}以内で入力してください。",
+      "min": "{name}は{min}字以上で入力してください。",
+      "color_hex": "無効な形式。",
+      "failed_to_sent_mail": "{name}メールを送信できませんでした。",
+      "decimal": "{name} フィールドは数値と10進数である必要があります",
+      "invalid_url": "無効なURL",
+      "invalid_csv": "拡張子がcsv、xlsxのファイルのみが受け入れられます",
+      "invalid_image": "拡張子がjpg、jpeg、png、gifのファイルのみが受け入れられます"
+    },
+    "confirmation": {
+      "delete": "{name}を削除してもよろしいですか?"
+    },
+
+    "information": {
+      "created": "正常に作成されました。",
+      "updated": "正常に更新されました。",
+      "deleted": "正常に削除されました。",
+      "login": "正常にログインしました。",
+      "action": "{name}が成功しました",
+      "sent_mail_success": "正常に{name}メールが送信されました。"
+    }
+  }
+}

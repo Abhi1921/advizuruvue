@@ -1,0 +1,43 @@
+{
+  "common": {
+    "home": "Home"
+  },
+  "messages": {
+    "error": {
+      "failed_to_create": "Failed to create {name}",
+      "failed_to_update": "Failed to update {name}",
+      "failed_to_delete": "Failed to delete {name}",
+      "failed_to_get": "Failed to get {name}",
+      "failed_to_login": "Failed to login.",
+      "failed_to_action": "{name} is failed",
+      "unmatch_value": "{name1}/{name2} does not match.",
+      "bad_email_format": "Bad email format.",
+      "unmatch_confirmation_email": "{name} does not match.",
+      "unmatch_password": "Password confirmation does not match",
+      "required": "{name} is required.",
+      "invalid_format": "Invalid format.",
+      "numeric": "This field requires a number.",
+      "more_than": "{name} must be greater than or equal to {target}",
+      "less_than": "{name} must be less than or equal to {target}",
+      "date_before": "{name} must be before {target}",
+      "min_max": "{name} must into between: {min}-{max}",
+      "min": "{name}  is at least {min} characters",
+      "color_hex": "Invalid format.",
+      "failed_to_sent_mail": "Failed to send mail {name}",
+      "decimal": "{name} field must be numeric and decimal",
+      "invalid_url":"Invalid url",
+      "invalid_image":"Only accept files ending with jpg, jpeg , png, gif"
+    },
+    "confirmation": {
+      "delete": "Are you sure you want to delete {name}?"
+    },
+    "information": {
+      "created": "Created successfully",
+      "updated": "Updated successfully",
+      "deleted": "Deleted successfully",
+      "login": "Login successfully",
+      "action": "{name} is successfully",
+      "sent_mail_success": "Sent mail {name} successfully"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+/**
+ * Offcanvas
+ */
+export const OFFCANVAS_VISIBLE = 'OFFCANVAS_VISIBLE'
+export const OFFCANVAS_REMOVING = 'OFFCANVAS_REMOVING'

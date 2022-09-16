@@ -1,0 +1,43 @@
+{
+  "common": {
+    "home": "Trang chủ"
+  },
+  "messages": {
+    "error": {
+      "failed_to_create": "Tạo {name} thất bại",
+      "failed_to_update": "Cập nhật {name} thất bại",
+      "failed_to_delete": "Xóa {name} thất bại",
+      "failed_to_get": "Lấy {name} thất bại",
+      "failed_to_login": "Đăng nhập thất bại",
+      "failed_to_action": "{name} thất bại",
+      "unmatch_value": "{name1}/{name2} không trùng khớp.",
+      "bad_email_format": "Email không đúng định dạng.",
+      "unmatch_confirmation_email": "{name} không trùng khớp.",
+      "unmatch_password": "Mật khẩu không trùng khớp",
+      "required": "{name} là bắt buộc.",
+      "invalid_format": "Định dạng không đúng.",
+      "numeric": "Trường này yêu cầu kiểu số.",
+      "more_than": "{name} phải lớn hơn hoặc bằng {target}",
+      "less_than": "{name} phải nhỏ hơn hoặc bằng {target}",
+      "date_before": "{name} phải trước {target}",
+      "min_max": "{name} phải nằm giữa: {min}-{max}",
+      "min": "{name} có ít nhất {min} ký tự",
+      "color_hex": "Định dạng không đúng.",
+      "failed_to_sent_mail": "Không thể gửi mail {name}",
+      "decimal": "{name} field must be numeric and decimal",
+      "invalid_url":"Định dạng đường dẫn không đúng",
+      "invalid_image":"Chỉ nhấp nhận file có đuôi là jpg, jpeg , png, gif"
+    },
+    "confirmation": {
+      "delete": "Bạn có chắc muốn xóa {name} không?"
+    },
+    "information": {
+      "created": "Tạo thành công",
+      "updated": "Cập nhật thành công",
+      "deleted": "Xóa thành công",
+      "login": "Đăng nhập thành công",
+      "action": "{name} thành công",
+      "sent_mail_success": "Gửi thư {name} thành công"
+    }
+  }
+}

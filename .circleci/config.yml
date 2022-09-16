@@ -1,0 +1,17 @@
+version: 2.1
+jobs:
+  build:
+  
+    machine:
+      image: ubuntu-2004:202010-01
+    steps:
+      - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - "a8:1c:a4:29:25:7e:12:24:c0:bf:9f:d9:a7:b9:07:41"
+      - run:
+          name: "add creatr to known host"
+          command: ssh-keyscan -H 3.137.125.234 >> ~/.ssh/known_hosts
+      - run:
+         name: "copy artifects" 
+         command: rsync -azp --exclude .git /home/circleci/project/ ubuntu@3.137.125.234:/data/www/staging/
