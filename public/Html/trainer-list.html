@@ -1,0 +1,844 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!-- Google font Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!--Main css File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <title>Hire Freelancers and Find Freelance Jobs Online - Advizuru</title>
+</head>
+
+<body class="bg-gray">
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top main-header">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/logo.png" class="img-fluid" alt="logo" width="180" height="48" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="n5avbarSupportedContent">
+                    <ul class="line-inline navbar-menu mb-0 p-0">
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Home</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Rate</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Training</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Post</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">My Team</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Recruiter</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex ms-auto head-btn">
+                        <ul class="list-inline mb-0 d-flex align-items-center">
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-bebo-social-logotype"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-membership"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-email"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-alarm"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-cogs"></i>
+                                </a>
+                            </li>
+                            <li class="profile-dropdown">
+                                <img src="assets/img/user-1.jpg" class="img-fluid rounded-circle" alt="user profile"
+                                    width="40" height="40" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="menu-bar">
+            <div class="container d-start">
+                <div class="search-bar">
+                    <input type="text" name="search" class="form-control" placeholder="Search here..." />
+                    <button type="submit" class="search-btn">
+                        <i class="flaticon flaticon-loupe"></i>
+                    </button>
+                </div>
+                <div class="main-menu">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item active">
+                            <a href="javascript:void(0);">Profile</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Rate Card</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Recruitment</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Sub Contracting</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Recruiter</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Team</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Training</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-wrapper spacing">
+            <div class="container">
+                <div class="tab-wrap full-tab">
+                    <nav class="cust-nav-tab">
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <button class="nav-link active" id="nav-rate-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-rate" type="button" role="tab" aria-controls="nav-rate"
+                                aria-selected="true">Trainer Profile</button>
+                            <button class="nav-link" id="nav-org-tab" data-bs-toggle="tab" data-bs-target="#nav-org"
+                                type="button" role="tab" aria-controls="nav-org" aria-selected="false">Trainer
+                                Program</button>
+                            <button class="nav-link" id="nav-project-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-project" type="button" role="tab" aria-controls="nav-project"
+                                aria-selected="false">Agenda</button>
+                        </div>
+                    </nav>
+                    <div class="tab-content cust-tab" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-rate" role="tabpanel"
+                            aria-labelledby="nav-rate-tab">
+                            <div class="d-flex justify-content-end top-thead">
+                                <a href="javascript:void(0);" class="link">Create Trainer Profile <i
+                                        class="flaticon flaticon-add i-bold"></i></a>
+                            </div>
+                            <div class="listing">
+                                <div class="exp-card">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Alias</span>
+                                            <span>: Training SAP</span>
+                                        </li>
+                                        <li>
+                                            <span>Profile</span>
+                                            <span>: SAP Training</span>
+                                        </li>
+                                        <li>
+                                            <span>Skill</span>
+                                            <span>: SAP</span>
+                                        </li>
+                                        <li>
+                                            <span>Mode</span>
+                                            <span>: Online / Classroom</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Availability</span>
+                                            <span>: Week days / Weekend / Anytime</span>
+                                        </li>
+                                        <li>
+                                            <span>Certification</span>
+                                            <span>: HYPERION</span>
+                                        </li>
+                                        <li>
+                                            <span>Location</span>
+                                            <span>: NCR</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li class="flex-end">
+                                            <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                <i class="flaticon flaticon-pen i-bold"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                <i class="flaticon flaticon-delete"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Alias</span>
+                                            <span>: Training SAP</span>
+                                        </li>
+                                        <li>
+                                            <span>Profile</span>
+                                            <span>: SAP Training</span>
+                                        </li>
+                                        <li>
+                                            <span>Skill</span>
+                                            <span>: SAP</span>
+                                        </li>
+                                        <li>
+                                            <span>Mode</span>
+                                            <span>: Online / Classroom</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Availability</span>
+                                            <span>: Week days / Weekend / Anytime</span>
+                                        </li>
+                                        <li>
+                                            <span>Certification</span>
+                                            <span>: HYPERION</span>
+                                        </li>
+                                        <li>
+                                            <span>Location</span>
+                                            <span>: NCR</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li class="flex-end">
+                                            <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                <i class="flaticon flaticon-pen i-bold"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                <i class="flaticon flaticon-delete"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Alias</span>
+                                            <span>: Training SAP</span>
+                                        </li>
+                                        <li>
+                                            <span>Profile</span>
+                                            <span>: SAP Training</span>
+                                        </li>
+                                        <li>
+                                            <span>Skill</span>
+                                            <span>: SAP</span>
+                                        </li>
+                                        <li>
+                                            <span>Mode</span>
+                                            <span>: Online / Classroom</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Availability</span>
+                                            <span>: Week days / Weekend / Anytime</span>
+                                        </li>
+                                        <li>
+                                            <span>Certification</span>
+                                            <span>: HYPERION</span>
+                                        </li>
+                                        <li>
+                                            <span>Location</span>
+                                            <span>: NCR</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li class="flex-end">
+                                            <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                <i class="flaticon flaticon-pen i-bold"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                <i class="flaticon flaticon-delete"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Alias</span>
+                                            <span>: Training SAP</span>
+                                        </li>
+                                        <li>
+                                            <span>Profile</span>
+                                            <span>: SAP Training</span>
+                                        </li>
+                                        <li>
+                                            <span>Skill</span>
+                                            <span>: SAP</span>
+                                        </li>
+                                        <li>
+                                            <span>Mode</span>
+                                            <span>: Online / Classroom</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Availability</span>
+                                            <span>: Week days / Weekend / Anytime</span>
+                                        </li>
+                                        <li>
+                                            <span>Certification</span>
+                                            <span>: HYPERION</span>
+                                        </li>
+                                        <li>
+                                            <span>Location</span>
+                                            <span>: NCR</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li class="flex-end">
+                                            <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                <i class="flaticon flaticon-pen i-bold"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                <i class="flaticon flaticon-delete"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-org" role="tabpanel" aria-labelledby="nav-org-tab">
+                            <div class="d-flex justify-content-end top-thead">
+                                <a href="javascript:void(0);" class="link">Create Trainer Profile <i
+                                        class="flaticon flaticon-add i-bold"></i></a>
+                            </div>
+                            <div class="listing">
+                                <div class="exp-card">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Skill</span>
+                                            <span>: SAP EPM</span>
+                                        </li>
+                                        <li>
+                                            <span>Start Date</span>
+                                            <span>: 05/21/2019</span>
+                                        </li>
+                                        <li>
+                                            <span>Location</span>
+                                            <span>: Delhi - NCR</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Mode</span>
+                                            <span>: Online / Offline</span>
+                                        </li>
+                                        <li>
+                                            <span>End date</span>
+                                            <span>: 05/30/2019</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Hours</span>
+                                            <span>: 5 hour</span>
+                                        </li>
+                                        <li>
+                                            <span>Sessions</span>
+                                            <span>: 5</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li class="flex-end">
+                                            <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                <i class="flaticon flaticon-pen i-bold"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                <i class="flaticon flaticon-delete"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Skill</span>
+                                            <span>: SAP EPM</span>
+                                        </li>
+                                        <li>
+                                            <span>Start Date</span>
+                                            <span>: 05/21/2019</span>
+                                        </li>
+                                        <li>
+                                            <span>Location</span>
+                                            <span>: Delhi - NCR</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Mode</span>
+                                            <span>: Online / Offline</span>
+                                        </li>
+                                        <li>
+                                            <span>End date</span>
+                                            <span>: 05/30/2019</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Hours</span>
+                                            <span>: 5 hour</span>
+                                        </li>
+                                        <li>
+                                            <span>Sessions</span>
+                                            <span>: 5</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li class="flex-end">
+                                            <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                <i class="flaticon flaticon-pen i-bold"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                <i class="flaticon flaticon-delete"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-project" role="tabpanel" aria-labelledby="nav-project-tab">
+                            <div class="d-flex justify-content-end top-thead">
+                                <a href="javascript:void(0);" class="link">Create Agenda <i
+                                        class="flaticon flaticon-add"></i></a>
+                            </div>
+                            <div class="listing">
+                                <div class="exp-card align-items-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Topic</span>
+                                            <span><a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#sessionDetail">: SAP EPM</a></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Training Program</span>
+                                            <span>: SAP EPM traning</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="#" class="btn-sm btn-outline-primary" data-bs-toggle="modal"
+                                                data-bs-target="#addSession">
+                                                ADD SESSION
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary"
+                                                data-bs-toggle="modal" data-bs-target="#sessionList">
+                                                VIEW SESSION
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li class="flex-end">
+                                            <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                <i class="flaticon flaticon-pen i-bold"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                <i class="flaticon flaticon-delete"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card align-items-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Topic</span>
+                                            <span><a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#sessionDetail">: SAP EPM</a></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Training Program</span>
+                                            <span>: SAP EPM traning</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary"
+                                                data-bs-toggle="modal" data-bs-target="#addSession">
+                                                ADD SESSION
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary"
+                                                data-bs-toggle="modal" data-bs-target="#sessionList">
+                                                VIEW SESSION
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li class="flex-end">
+                                            <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                <i class="flaticon flaticon-pen i-bold"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                <i class="flaticon flaticon-delete"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card align-items-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Topic</span>
+                                            <span><a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#sessionDetail">: SAP EPM</a></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Training Program</span>
+                                            <span>: SAP EPM traning</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary"
+                                                data-bs-toggle="modal" data-bs-target="#addSession">
+                                                ADD SESSION
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary"
+                                                data-bs-toggle="modal" data-bs-target="#sessionList">
+                                                VIEW SESSION
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li class="flex-end">
+                                            <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                <i class="flaticon flaticon-pen i-bold"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                <i class="flaticon flaticon-delete"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card align-items-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Topic</span>
+                                            <span><a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#sessionDetail">: SAP EPM</a></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Training Program</span>
+                                            <span>: SAP EPM traning</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary"
+                                                data-bs-toggle="modal" data-bs-target="#addSession">
+                                                ADD SESSION
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary"
+                                                data-bs-toggle="modal" data-bs-target="#sessionList">
+                                                VIEW SESSION
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li class="flex-end">
+                                            <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                <i class="flaticon flaticon-pen i-bold"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                <i class="flaticon flaticon-delete"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--main wrapper closed-->
+    </div>
+    <!-- Modal start -->
+    <!-- Add Session -->
+    <div class="modal fade cust-modal" id="addSession" tabindex="-1" aria-labelledby="addSessionLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="m-head d-between">
+                        <h6>Add Session</h6>
+                        <a href="javascript:void(0);"><i
+                                class="flaticon flaticon-arrowhead-thin-outline-to-the-left"></i> Back To Session</a>
+                    </div>
+                    <div class="m-body">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label>Duration<sup>*</sup></label>
+                                    <select class="form-select">
+                                        <option>Please Select Duration</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label>Points</label>
+                                    <input type="text" class="form-control" placeholder="Type your Text" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group file-upload">
+                            <label>Upload Document (Allow - ppt, doc, docx, txt)</label>
+                            <div class="d-flex align-items-center">
+                                <input type="file" id="actual-btn" hidden />
+                                <label class="chose-file" for="actual-btn"><i class="flaticon flaticon-upload"></i>
+                                    Choose File</label>
+                                <span id="file-chosen">No file chosen</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Description<sup>*</sup></label>
+                            <input type="text" class="form-control" placeholder="Type Your Description" />
+                        </div>
+                        <div class="form-group">
+                            <label>Preface<sup>*</sup></label>
+                            <input type="text" class="form-control" placeholder="Type Your Preface" />
+                        </div>
+                    </div>
+                    <div class="m-foot d-center">
+                        <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Session List -->
+    <div class="modal fade cust-modal" id="sessionList" tabindex="-1" aria-labelledby="sessionListLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="m-head d-between">
+                        <h6>Session</h6>
+                        <a href="javascript:void(0);">Create Session <i class="flaticon flaticon-add"></i></a>
+                    </div>
+                    <div class="m-body">
+                        <div class="listing">
+                            <div class="exp-card align-items-center">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <span>Topic</span>
+                                        <span><a href="#/">: Session-1</a></span>
+                                    </li>
+                                    <li>
+                                        <span>Duration</span>
+                                        <span>: 30 mins</span>
+                                    </li>
+                                    <li>
+                                        <span>Document</span>
+                                        <span>: NA</span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="flex-end">
+                                        <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                            <i class="flaticon flaticon-pen i-bold"></i>
+                                        </a>
+                                        <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                            <i class="flaticon flaticon-delete"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="exp-card align-items-center">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <span>Topic</span>
+                                        <span><a href="#/">: Session-1</a></span>
+                                    </li>
+                                    <li>
+                                        <span>Duration</span>
+                                        <span>: 30 mins</span>
+                                    </li>
+                                    <li>
+                                        <span>Document</span>
+                                        <span>: NA</span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="flex-end">
+                                        <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                            <i class="flaticon flaticon-pen i-bold"></i>
+                                        </a>
+                                        <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                            <i class="flaticon flaticon-delete"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="exp-card align-items-center">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <span>Topic</span>
+                                        <span><a href="#/">: Session-1</a></span>
+                                    </li>
+                                    <li>
+                                        <span>Duration</span>
+                                        <span>: 30 mins</span>
+                                    </li>
+                                    <li>
+                                        <span>Document</span>
+                                        <span>: NA</span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="flex-end">
+                                        <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                            <i class="flaticon flaticon-pen i-bold"></i>
+                                        </a>
+                                        <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                            <i class="flaticon flaticon-delete"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="exp-card align-items-center">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <span>Topic</span>
+                                        <span><a href="#/">: Session-1</a></span>
+                                    </li>
+                                    <li>
+                                        <span>Duration</span>
+                                        <span>: 30 mins</span>
+                                    </li>
+                                    <li>
+                                        <span>Document</span>
+                                        <span>: NA</span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="flex-end">
+                                        <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                            <i class="flaticon flaticon-pen i-bold"></i>
+                                        </a>
+                                        <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                            <i class="flaticon flaticon-delete"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Session Detail -->
+    <div class="modal fade cust-modal" id="sessionDetail" tabindex="-1" aria-labelledby="sessionDetailLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="m-head d-between">
+                        <h6>Training Session Details</h6>
+                    </div>
+                    <div class="m-body">
+                        <div class="gray-card">
+                            <ul class="u-list list-unstyled">
+                                <li>
+                                    <span>Duration</span>
+                                    <span>: 30 mins</span>
+                                </li>
+                                <li>
+                                    <span>Preface</span>
+                                    <span>: Lorem ipsum is dummy test</span>
+                                </li>
+                                <li>
+                                    <span>Description</span>
+                                    <span>: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal End -->
+    <!--wrapper closed -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const actualBtn = document.getElementById('actual-btn');
+        const fileChosen = document.getElementById('file-chosen');
+        actualBtn.addEventListener('change', function () {
+            fileChosen.textContent = this.files[0].name
+        })
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".sidebar-dropdown > a").click(function () {
+                $(".sidebar-submenu").slideUp(200);
+                if (
+                    $(this)
+                        .parent()
+                        .hasClass("active")
+                ) {
+                    $(".sidebar-dropdown").removeClass("active");
+                    $(this)
+                        .parent()
+                        .removeClass("active");
+                } else {
+                    $(".sidebar-dropdown").removeClass("active");
+                    $(this)
+                        .next(".sidebar-submenu")
+                        .slideDown(200);
+                    $(this)
+                        .parent()
+                        .addClass("active");
+                }
+            });
+        })
+    </script>
+</body>
+
+</html>

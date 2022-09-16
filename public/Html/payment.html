@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!-- Google font Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- fontawesome-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
+    <!--Main css File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <title>Hire Freelancers and Find Freelance Jobs Online - Advizuru</title>
+</head>
+
+<body class="bg-gray">
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top main-header">
+            <div class="container">
+                <div class="d-flex align-items-center logo-group">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon top"></span>
+                        <span class="navbar-toggler-icon middle"></span>
+                        <span class="navbar-toggler-icon bottom"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/logo.png" alt="logo" class="large-logo" width="180" height="48" />
+                        <img src="assets/img/small-logo.png" class="small-logo d-none" alt="logo" width="31" height="26" />
+                    </a>
+                </div>
+                <div class="d-flex mobile-search">
+                    <div class="search-bar d-none">
+                        <input type="text" name="search" class="form-control" placeholder="Search here..." />
+                        <button type="submit" class="search-btn">
+                            <i class="flaticon flaticon-loupe"></i>
+                        </button>
+                    </div>
+                    <div class="mobile-options d-none">
+                        <a href="javascript:void(0);" class="m-icon"><i class="flaticon flaticon-email"></i>
+                        <span class="badge badge-success">14</span></a>
+                        <a href="javascript:void(0);" class="m-icon"><i class="flaticon flaticon-alarm i-bold"></i>
+                        <span class="badge badge-danger">10</span></a>
+                        <a href="javascript:void(0);" class="ms-2"><img src="assets/img/user-1.jpg" alt="user profile" width="45" height="45"  /></a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="line-inline navbar-menu mb-0 p-0">
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Home</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Rate</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Training</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Post</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">My Team</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Recruiter</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex ms-auto head-btn">
+                        <ul class="list-inline mb-0 d-flex align-items-center">
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-bebo-social-logotype"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-membership"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-email"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-alarm"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-cogs"></i>
+                                </a>
+                            </li>
+                            <li class="profile-dropdown">
+                                <img src="assets/img/user-1.jpg" class="img-fluid rounded-circle" alt="user profile"
+                                    width="40" height="40" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="search-bar d-none mobile-xxs">
+            <input type="text" name="search" class="form-control" placeholder="Search here..." />
+            <button type="submit" class="search-btn">
+                <i class="flaticon flaticon-loupe"></i>
+            </button>
+        </div>
+        <div class="menu-bar">
+            <div class="container d-start">
+                <div class="search-bar">
+                    <input type="text" name="search" class="form-control" placeholder="Search here..." />
+                    <button type="submit" class="search-btn">
+                        <i class="flaticon flaticon-loupe"></i>
+                    </button>
+                </div>
+                <div class="main-menu">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item active">
+                            <a href="javascript:void(0);">Profile</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Rate Card</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Recruitment</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Sub Contracting</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Recruiter</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Team</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Training</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-wrapper spacing">
+            <div class="container">
+                <div class="tab-wrap full-tab">
+                    <nav class="cust-nav-tab">
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <button class="nav-link active" id="nav-transaction-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-transaction" type="button" role="tab" aria-controls="nav-transaction"
+                                aria-selected="true">Transaction</button>
+                            <button class="nav-link" id="nav-history-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-history" type="button" role="tab"
+                                aria-controls="nav-history" aria-selected="false">Points History</button>
+                            <button class="nav-link" id="nav-redeem-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-redeem" type="button" role="tab" aria-controls="nav-redeem"
+                                aria-selected="false">Redeem</button>
+                            <button class="nav-link" id="nav-paynow-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-paynow" type="button" role="tab" aria-controls="nav-paynow"
+                                aria-selected="false">Pay Now</button>
+                        </div>
+                    </nav>
+                    <div class="tab-content cust-tab" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-transaction" role="tabpanel"
+                            aria-labelledby="nav-transaction-tab">
+                            <div class="listing redeem-list">
+                                <div class="t-card">
+                                    <div class="d-between">
+                                        <div class="left-side d-flex row d-flex w-50">
+                                            <div class="col-6">
+                                                <span class="user-title">Transaction ID</span>
+                                                <h6 class="mb-0"><span class="user-acc">52958209499</span></h6>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="user-title">Tracking ID</span>
+                                                <h6 class="mb-0"><span class="user-acc">9582095478</span></h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-side">
+                                            <div class="status-group me-4">
+                                                <span class="badge badge-danger">Pending</span>
+                                            </div>
+                                            <a href="javascript:void(0);" class="INR-text">
+                                                <span>INR 240</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="t-card">
+                                    <div class="d-between">
+                                        <div class="left-side d-flex row d-flex w-50">
+                                            <div class="col-6">
+                                                <span class="user-title">Transaction ID</span>
+                                                <h6 class="mb-0"><span class="user-acc">52958209499</span></h6>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="user-title">Tracking ID</span>
+                                                <h6 class="mb-0"><span class="user-acc">9582095478</span></h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-side">
+                                            <div class="status-group me-4">
+                                                <span class="badge badge-success">Success</span>
+                                            </div>
+                                            <a href="javascript:void(0);" class="INR-text">
+                                                <span>INR 240</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="t-card">
+                                    <div class="d-between">
+                                        <div class="left-side d-flex row d-flex w-50">
+                                            <div class="col-6">
+                                                <span class="user-title">Transaction ID</span>
+                                                <h6 class="mb-0"><span class="user-acc">52958209499</span></h6>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="user-title">Tracking ID</span>
+                                                <h6 class="mb-0"><span class="user-acc">9582095478</span></h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-side">
+                                            <div class="status-group me-4">
+                                                <span class="badge badge-danger">Pending</span>
+                                            </div>
+                                            <a href="javascript:void(0);" class="INR-text">
+                                                <span>INR 240</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="t-card">
+                                    <div class="d-between">
+                                        <div class="left-side d-flex row d-flex w-50">
+                                            <div class="col-6">
+                                                <span class="user-title">Transaction ID</span>
+                                                <h6 class="mb-0"><span class="user-acc">52958209499</span></h6>
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="user-title">Tracking ID</span>
+                                                <h6 class="mb-0"><span class="user-acc">9582095478</span></h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-side">
+                                            <div class="status-group me-4">
+                                                <span class="badge badge-success">Success</span>
+                                            </div>
+                                            <a href="javascript:void(0);" class="INR-text">
+                                                <span>INR 240</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-history" role="tabpanel"
+                            aria-labelledby="nav-history-tab">
+                            <div class="listing point-history">
+                                <div class="t-card">
+                                    <div class="d-between">
+                                        <div class="left-side">
+                                            <h6><span class="t-title">Sub Contracting Post</span> <span class="light-gray mb-0">Package: $ 2000 per annum</span></h6>
+                                            <div class="blog-widget">
+                                                <span><i class="fa fa-calendar-o"></i> Aug 2020</span>
+                                                <span><i class="fa fa-clock-o"></i>  12:16 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="right-side">
+                                            <p><span class="balance">BALANCE POINT:</span> <span class="point">3350</span></p>
+                                            <span class="success-point"><span class="text-point">Point:</span> <span>+300</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="t-card">
+                                    <div class="d-between">
+                                        <div class="left-side">
+                                            <h6><span class="t-title">Sub Contracting Post</span> <span class="light-gray mb-0">Package: $ 2000 per annum</span></h6>
+                                            <div class="blog-widget">
+                                                <span><i class="fa fa-calendar-o"></i> Aug 2020</span>
+                                                <span><i class="fa fa-clock-o"></i>  12:16 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="right-side">
+                                            <p><span class="balance">BALANCE POINT:</span> <span class="point">3350</span></p>
+                                            <span class="danger-point"><span class="text-point">Point:</span> <span>+300</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="t-card">
+                                    <div class="d-between">
+                                        <div class="left-side">
+                                            <h6><span class="t-title">Sub Contracting Post</span> <span class="light-gray mb-0">Package: $ 2000 per annum</span></h6>
+                                            <div class="blog-widget">
+                                                <span><i class="fa fa-calendar-o"></i> Aug 2020</span>
+                                                <span><i class="fa fa-clock-o"></i>  12:16 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="right-side">
+                                            <p><span class="balance">BALANCE POINT:</span> <span class="point">3350</span></p>
+                                            <span class="success-point"><span class="text-point">Point:</span> <span>+300</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="t-card">
+                                    <div class="d-between">
+                                        <div class="left-side">
+                                            <h6><span class="t-title">Sub Contracting Post</span> <span class="light-gray mb-0">Package: $ 2000 per annum</span></h6>
+                                            <div class="blog-widget">
+                                                <span><i class="fa fa-calendar-o"></i> Aug 2020</span>
+                                                <span><i class="fa fa-clock-o"></i>  12:16 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="right-side">
+                                            <p><span class="balance">BALANCE POINT:</span> <span class="point">3350</span></p>
+                                            <span class="danger-point"><span class="text-point">Point:</span> <span>+300</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-redeem" role="tabpanel" aria-labelledby="nav-redeem-tab">
+                            <div class="listing redeem-list">
+                                <div class="t-card">
+                                    <div class="d-between">
+                                        <div class="left-side">
+                                            <span class="user-title">Bank Account No. &amp; Name</span>
+                                            <h6 class="mb-0"><span class="user-acc">07952958209499</span><span class="user-name">Ashish Dhiman</span></h6>
+                                        </div>
+                                        <div class="right-side">
+                                            <div class="status-group me-2">
+                                                <span class="badge badge-danger">Pending</span>
+                                                <a href="javascript:void(0);" class="btn btn-outline-primary">View</a>
+                                            </div>
+                                            <a href="javascript:void(0);" class="btn btn-redeem" data-bs-toggle="modal" data-bs-target="#redeemNow">
+                                                <span>240</span>
+                                                <span>Redeem Now</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="t-card">
+                                    <div class="d-between">
+                                        <div class="left-side">
+                                            <span class="user-title">Bank Account No. &amp; Name</span>
+                                            <h6 class="mb-0"><span class="user-acc">07952958209499</span><span class="user-name">Ashish Dhiman</span></h6>
+                                        </div>
+                                        <div class="right-side">
+                                            <div class="status-group me-2">
+                                                <span class="badge badge-success">Success</span>
+                                                <a href="javascript:void(0);" class="btn btn-outline-primary">View</a>
+                                            </div>
+                                            <a href="javascript:void(0);" class="btn btn-redeem" data-bs-toggle="modal" data-bs-target="#redeemNow">
+                                                <span>240</span>
+                                                <span>Redeem Now</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="t-card">
+                                    <div class="d-between">
+                                        <div class="left-side">
+                                            <span class="user-title">Bank Account No. &amp; Name</span>
+                                            <h6 class="mb-0"><span class="user-acc">07952958209499</span><span class="user-name">Ashish Dhiman</span></h6>
+                                        </div>
+                                        <div class="right-side">
+                                            <div class="status-group me-2">
+                                                <span class="badge badge-danger">Pending</span>
+                                                <a href="javascript:void(0);" class="btn btn-outline-primary">View</a>
+                                            </div>
+                                            <a href="javascript:void(0);" class="btn btn-redeem" data-bs-toggle="modal" data-bs-target="#redeemNow">
+                                                <span>240</span>
+                                                <span>Redeem Now</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="t-card">
+                                    <div class="d-between">
+                                        <div class="left-side">
+                                            <span class="user-title">Bank Account No. &amp; Name</span>
+                                            <h6 class="mb-0"><span class="user-acc">07952958209499</span><span class="user-name">Ashish Dhiman</span></h6>
+                                        </div>
+                                        <div class="right-side">
+                                            <div class="status-group me-2">
+                                                <span class="badge badge-success">Success</span>
+                                                <a href="javascript:void(0);" class="btn btn-outline-primary">View</a>
+                                            </div>
+                                            <a href="javascript:void(0);" class="btn btn-redeem" data-bs-toggle="modal" data-bs-target="#redeemNow">
+                                                <span>240</span>
+                                                <span>Redeem Now</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-paynow" role="tabpanel" aria-labelledby="nav-paynow-tab">
+                            <!-- <div class="listing paynow-list">
+                                <div class="t-card d-between">
+                                    <div class="media mb-0">
+                                        <img src="assets/img/coin.png" class="img-fluid me-3" alt="coin" width="35" height="" />
+                                        <div class="media-body align-self-center">
+                                            <p class="mb-0">227,000 INR</p>
+                                        </div>
+                                    </div>
+                                    <span>91,000 Bonus</span>
+                                    <a href="javascript:void(0);" class="INR-text"><i class="fa fa-inr"></i> 147.99</a>
+                                </div>
+                                <div class="t-card d-between">
+                                    <div class="media mb-0">
+                                        <img src="assets/img/coin.png" class="img-fluid me-3" alt="coin" width="35" height="" />
+                                        <div class="media-body align-self-center">
+                                            <p class="mb-0">227,000 INR</p>
+                                        </div>
+                                    </div>
+                                    <span>91,000 Bonus</span>
+                                    <a href="javascript:void(0);" class="INR-text"><i class="fa fa-inr"></i> 369.99</a>
+                                </div>
+                                <div class="t-card d-between">
+                                    <div class="media mb-0">
+                                        <img src="assets/img/coin.png" class="img-fluid me-3" alt="coin" width="35" height="" />
+                                        <div class="media-body align-self-center">
+                                            <p class="mb-0">227,000 INR</p>
+                                        </div>
+                                    </div>
+                                    <span>91,000 Bonus</span>
+                                    <a href="javascript:void(0);" class="INR-text"><i class="fa fa-inr"></i> 454.99</a>
+                                </div>
+                                <div class="t-card d-between">
+                                    <div class="media mb-0">
+                                        <img src="assets/img/coin.png" class="img-fluid me-3" alt="coin" width="35" height="" />
+                                        <div class="media-body align-self-center">
+                                            <p class="mb-0">227,000 INR</p>
+                                        </div>
+                                    </div>
+                                    <span>91,000 Bonus</span>
+                                    <a href="javascript:void(0);" class="INR-text"><i class="fa fa-inr"></i> 365.99</a>
+                                </div>
+                                <div class="t-card d-between">
+                                    <div class="media mb-0">
+                                        <img src="assets/img/coin.png" class="img-fluid me-3" alt="coin" width="35" height="" />
+                                        <div class="media-body align-self-center">
+                                            <p class="mb-0">227,000 INR</p>
+                                        </div>
+                                    </div>
+                                    <span>91,000 Bonus</span>
+                                    <a href="javascript:void(0);" class="INR-text"><i class="fa fa-inr"></i> 265.99</a>
+                                </div>
+                                <div class="t-card d-between">
+                                    <div class="media mb-0">
+                                        <img src="assets/img/coin.png" class="img-fluid me-3" alt="coin" width="35" height="" />
+                                        <div class="media-body align-self-center">
+                                            <p class="mb-0">227,000 INR</p>
+                                        </div>
+                                    </div>
+                                    <span>91,000 Bonus</span>
+                                    <a href="javascript:void(0);" class="INR-text"><i class="fa fa-inr"></i> 565.99</a>
+                                </div>
+                            </div> -->
+                            <div class="listing">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="p-card basic-card">
+                                            <span>Platinum</span>
+                                            <div class="text-center">
+                                                <h4>
+                                                    <img src="assets/img/coin-icon.png" class="img-fluid" alt="coin" width=""  height="" />
+                                                    <span>100 INR</span>
+                                                </h4>
+                                                <h2>1000 Points</h2>
+                                            </div>
+                                            <div class="d-flex justify-content-end">
+                                                <a href="javacscript:void();" class="btn btn-white btn-sm">Pay Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="p-card platinum-card">
+                                            <span>Silver</span>
+                                            <div class="text-center">
+                                                <h4>
+                                                    <img src="assets/img/coin-icon.png" class="img-fluid" alt="coin" width=""  height="" />
+                                                    <span>300 INR</span>
+                                                </h4>
+                                                <h2>3000 Points</h2>
+                                            </div>
+                                            <div class="d-flex justify-content-end">
+                                                <a href="javacscript:void();" class="btn btn-white btn-sm">Pay Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="p-card gold-card">
+                                            <span>Gold</span>
+                                            <div class="text-center">
+                                                <h4>
+                                                    <img src="assets/img/coin-icon.png" class="img-fluid" alt="coin" width=""  height="" />
+                                                    <span>500 INR</span>
+                                                </h4>
+                                                <h2>5000 Points</h2>
+                                            </div>
+                                            <div class="d-flex justify-content-end">
+                                                <a href="javacscript:void();" class="btn btn-white btn-sm">Pay Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="p-card premium-card">
+                                            <span>Premium</span>
+                                            <div class="text-center">
+                                                <h4>
+                                                    <img src="assets/img/coin-icon.png" class="img-fluid" alt="coin" width=""  height="" />
+                                                    <span>1000 INR</span>
+                                                </h4>
+                                                <h2>10000 Points</h2>
+                                            </div>
+                                            <div class="d-flex justify-content-end">
+                                                <a href="javacscript:void();" class="btn btn-white btn-sm">Pay Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--main wrapper closed-->
+    </div>
+    <!-- redeem point Modal -->
+    <div class="modal fade ag-modal" id="redeemNow" tabindex="-1" aria-labelledby="redeemNowLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="redeemNowLabel">Redeem Points</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label>Points</label>
+                                <input type="text" class="form-control" name="title" placeholder="Enter Your Points" />
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label>Account Number</label>
+                                <input type="text" class="form-control" name="skill" placeholder="Enter Account Number" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <label>Name On Account Number</label>
+                                <input type="text" class="form-control" name="Ashish Dhiman" placeholder="Enter Name On Account Number" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label>Bank Name</label>
+                                <input type="text" class="form-control" name="bank" placeholder="Enter Bank Name" />
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label>IFSC Code</label>
+                                <input type="text" class="form-control" name="skill" placeholder="Type your Text" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <label>Note</label>
+                                <textarea class="form-control" rows="5" placeholder="Type Your Preface"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-center">
+                        <button type="submit" class="btn btn-primary modal-btn">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--wrapper closed -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const actualBtn = document.getElementById('actual-btn');
+       const fileChosen = document.getElementById('file-chosen');
+       actualBtn.addEventListener('change', function () {
+           fileChosen.textContent = this.files[0].name
+       })
+   </script>
+   <script>
+       $(document).ready(function () {
+           $(".sidebar-dropdown > a").click(function () {
+               $(".sidebar-submenu").slideUp(200);
+               if (
+                   $(this)
+                       .parent()
+                       .hasClass("active")
+               ) {
+                   $(".sidebar-dropdown").removeClass("active");
+                   $(this)
+                       .parent()
+                       .removeClass("active");
+               } else {
+                   $(".sidebar-dropdown").removeClass("active");
+                   $(this)
+                       .next(".sidebar-submenu")
+                       .slideDown(200);
+                   $(this)
+                       .parent()
+                       .addClass("active");
+               }
+           });
+       })
+   </script>
+</body>
+
+</html>

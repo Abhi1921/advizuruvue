@@ -1,0 +1,54 @@
+/*====== footer Style ======*/
+.footer-menu {
+	background-color: #F2F2F2;
+	padding: 1.25rem 0;
+	ul {
+		li {
+			a {
+				text-decoration: none;
+				font-size: 0.875rem;
+				padding: 0.2rem;
+				font-weight: 500;
+			}
+		}
+	}
+	.copyright {
+		font-weight: 500;
+		font-size: 0.875rem;
+	}
+}
+/*====== home footer style =======*/
+footer {
+	background-color: #F4F6FF;
+	padding: 3rem 0;
+	.footer-logo {
+		p {
+			font-size: 0.875rem;
+			color: rgba(black, 0.6);
+			line-height: 1.9;
+			padding-right: 2rem;
+			text-align: justify;
+		}
+	}
+	.f_heading {
+		color: #16375D;
+		font-size: 1.2rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		margin-bottom: 1.2rem;
+	}
+	.footer-nav {
+		margin-bottom: 0;
+		li {
+			margin-bottom: 1rem;
+			a {
+				font-size: 0.875rem;
+				color: rgba(black, 0.6);
+				font-weight: 500;
+				&:hover {
+					color: #16375D;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!-- Google font Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- fontawesome-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
+    <!--Select css File -->
+    <link href="assets/css/select2.min.css" rel="stylesheet" />
+    <!-- Range slider -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" />
+    <!-- date picker -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!--Main css File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <title>Hire Freelancers and Find Freelance Jobs Online - Advizuru</title>
+    <style>
+        .file-upload .chose-file {
+            background-color: #1a3ffc;
+            color: white;
+            padding: 0.7rem 1.5rem;
+            cursor: pointer;
+            margin: 0;
+        }
+        .file-upload .chose-file i {
+            font-size: 1rem;
+            margin-right: 0.4rem;
+        }
+        .file-upload #file-chosen{
+            margin-left: 0.9rem;
+        }
+    </style>
+</head>
+
+<body class="p-3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <h1>Hello, world!</h1>
+    <div class="mb-3">
+        <div class="select">
+            <select name="format" id="format">
+            <option selected disabled>Choose format</option>
+            <option value="pdf">PDF</option>
+            <option value="txt">txt</option>
+            <option value="epub">ePub</option>
+            </select>
+        </div>
+    </div>
+    <div class="mb-3">
+        <div class="dropdown custom_select">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li><li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+    </div>
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top"
+        title="Tooltip on top">
+        Tooltip on top
+    </button>
+    <button type="button" class="btn btn-primary mb-5" data-bs-toggle="modal" data-bs-target="#addSkills">
+        General form
+    </button>
+    <!--- choose file  -->
+    <div class="form-group file-upload">
+        <label>Upload Resume</label>
+        <div class="d-flex align-items-center border">
+            <input type="file" id="actual-btn" hidden/>
+            <label class="chose-file" for="actual-btn"><i class="flaticon flaticon-upload"></i> Choose File</label>
+            <span id="file-chosen">No file chosen</span>
+        </div>
+    </div>
+    <!-- Closed -->
+    <div class="modal fade ag-modal" id="addSkills" tabindex="-1" aria-labelledby="addSkillsLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-dialog-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addSkillsLabel">Add Skill</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>User Name<sup class="text-danger">*</sup></label>
+                        <input type="text" class="form-control" name="user name" placeholder="Enter Your Name" />
+                    </div>
+                    <div class="form-group">
+                        <label>Select2<sup class="text-danger">*</sup></label>
+                        <select id="single" class="js-states form-control" style="width:100%">
+                            <option>Java</option>
+                            <option>Javascript</option>
+                            <option>PHP</option>
+                            <option>Visual Basic</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Simple Select<sup class="text-danger">*</sup></label>
+                        <select class="form-select" placeholder="Select Skill Level">
+                            <option>Select Skill Level</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Date<sup class="text-danger">*</sup></label>
+                        <input type="text" id="datepicker" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Self Assesment</label>
+                        <div class="rating-wrap">
+                            <div class="rating-list">
+                                <input type="radio" id="star5" name="rating" value="5" />
+                                <label class="full" for="star5" title="Awesome - 5 stars"></label>
+                                <input type="radio" id="star4half" name="rating" value="4 and a half" />
+                                <label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                                <input type="radio" id="star4" name="rating" value="4" />
+                                <label class="full" for="star4" title="Pretty good - 4 stars"></label>
+                                <input type="radio" id="star3half" name="rating" value="3 and a half" />
+                                <label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                                <input type="radio" id="star3" name="rating" value="3" />
+                                <label class="full" for="star3" title="Meh - 3 stars"></label>
+                                <input type="radio" id="star2half" name="rating" value="2 and a half" />
+                                <label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                                <input type="radio" id="star2" name="rating" value="2" />
+                                <label class="full" for="star2" title="Kinda bad - 2 stars"></label>
+                                <input type="radio" id="star1half" name="rating" value="1 and a half" />
+                                <label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                                <input type="radio" id="star1" name="rating" value="1" />
+                                <label class="full" for="star1" title="Sucks big time - 1 star"></label>
+                                <input type="radio" id="starhalf" name="rating" value="half" />
+                                <label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>DESCRIPTION ( BRIEFLY DESCRIBE THE TASKS PERFORMED EARLIER USING THE SKILL IN 200 TO
+                            1000 WORDS)
+                            <sup class="text-danger">*</sup>
+                        </label>
+                        <textarea class="form-control" rows="4"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary-light btn-sm">Add</button>
+                    <button type="button" class="btn btn-danger-light btn-sm" data-bs-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type='text/javascript'>
+        //For Tootlip
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+        // For choose btn file name
+        const actualBtn = document.getElementById('actual-btn');
+        const fileChosen = document.getElementById('file-chosen');
+        actualBtn.addEventListener('change', function () {
+            fileChosen.textContent = this.files[0].name
+        })
+    </script>
+    <script>
+        $(document).ready(function () {
+            // For Sidebar Filter toggle
+            $(".sidebar-dropdown > a").click(function () {
+                $(".sidebar-submenu").slideUp(200);
+                if (
+                    $(this)
+                        .parent()
+                        .hasClass("active")
+                ) {
+                    $(".sidebar-dropdown").removeClass("active");
+                    $(this)
+                        .parent()
+                        .removeClass("active");
+                } else {
+                    $(".sidebar-dropdown").removeClass("active");
+                    $(this)
+                        .next(".sidebar-submenu")
+                        .slideDown(200);
+                    $(this)
+                        .parent()
+                        .addClass("active");
+                }
+            });
+            // For Range Slider
+            $("#experience, #cost").ionRangeSlider({
+                type: "double",
+                grid: true,
+                min: 0,
+                max: 1000,
+                from: 200,
+                to: 800,
+                prefix: "$"
+            });
+            // For sidebar make mobile menu
+            $('.btn_filter').click(function () {
+                $('.mobile-filter').toggleClass('open');
+            });
+            $('.search-btn').click(function () {
+                $('.search-bar input').toggleClass('search-flex');
+            });
+            //For Select 2 
+            $("#single").select2({
+                placeholder: "Select Skills",
+                allowClear: true,
+                dropdownParent: $('#addSkills')
+            });
+            //For datepicker
+            $( "#datepicker" ).datepicker();
+        })
+    </script>
+</body>
+
+</html>

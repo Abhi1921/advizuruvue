@@ -1,0 +1,827 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!-- Google font Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+    <!--Main css File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <title>Hire Freelancers and Find Freelance Jobs Online - Advizuru</title>
+</head>
+
+<body class="bg-gray">
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top main-header">
+            <div class="container">
+                <div class="d-flex align-items-center logo-group">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon top"></span>
+                        <span class="navbar-toggler-icon middle"></span>
+                        <span class="navbar-toggler-icon bottom"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/logo.png" alt="logo" class="large-logo" width="180" height="48" />
+                        <img src="assets/img/small-logo.png" class="small-logo d-none" alt="logo" width="31" height="26" />
+                    </a>
+                </div>
+                <div class="d-flex mobile-search">
+                    <div class="search-bar d-none">
+                        <input type="text" name="search" class="form-control" placeholder="Search here..." />
+                        <button type="submit" class="search-btn">
+                            <i class="flaticon flaticon-loupe"></i>
+                        </button>
+                    </div>
+                    <div class="mobile-options d-none">
+                        <a href="javascript:void(0);" class="m-icon"><i class="flaticon flaticon-email"></i>
+                        <span class="badge badge-success">14</span></a>
+                        <a href="javascript:void(0);" class="m-icon"><i class="flaticon flaticon-alarm i-bold"></i>
+                        <span class="badge badge-danger">10</span></a>
+                        <a href="javascript:void(0);" class="ms-2"><img src="assets/img/user-1.jpg" alt="user profile" width="45" height="45"  /></a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="line-inline navbar-menu mb-0 p-0">
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Home</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Rate</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Training</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Post</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">My Team</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Recruiter</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex ms-auto head-btn">
+                        <ul class="list-inline mb-0 d-flex align-items-center">
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-bebo-social-logotype"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-membership"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-email"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-alarm"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-cogs"></i>
+                                </a>
+                            </li>
+                            <li class="profile-dropdown">
+                                <img src="assets/img/user-1.jpg" class="img-fluid rounded-circle" alt="user profile"
+                                    width="40" height="40" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="search-bar d-none mobile-xxs">
+            <input type="text" name="search" class="form-control" placeholder="Search here..." />
+            <button type="submit" class="search-btn">
+                <i class="flaticon flaticon-loupe"></i>
+            </button>
+        </div>
+        <div class="menu-bar">
+            <div class="container d-start">
+                <div class="search-bar">
+                    <input type="text" name="search" class="form-control" placeholder="Search here..." />
+                    <button type="submit" class="search-btn">
+                        <i class="flaticon flaticon-loupe"></i>
+                    </button>
+                </div>
+                <div class="main-menu">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item active">
+                            <a href="javascript:void(0);">Profile</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Rate Card</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Recruitment</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Sub Contracting</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Recruiter</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Team</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Training</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-wrapper spacing">
+            <div class="container">
+                <div class="row row-full">
+                    <div class="col-md-4 col-28 mobile-filter">
+                        <button class="btn_filter d-none"><i class="flaticon flaticon-filter"></i>
+                            <span>Filter</span></button>
+                        <div class="filter-panel">
+                            <div class="panel-head">
+                                <h5>Filter People By</h5>
+                            </div>
+                            <div class="panel-body">
+                                <div class="sidebar-menu">
+                                    <ul class="list-unstyled">
+                                        <li class="sidebar-dropdown">
+                                            <a href="#">
+                                                <i class="flaticon flaticon-light-bulb"></i>
+                                                <span>Skills</span>
+                                            </a>
+                                            <div class="sidebar-submenu">
+                                                <div class="option-wrap">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="check_1">
+                                                        <label class="form-check-label" for="check_1">
+                                                            Java
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="check_2">
+                                                        <label class="form-check-label" for="check_2">
+                                                            Accounts
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="check_3">
+                                                        <label class="form-check-label" for="check_3">
+                                                            Sales/Marketing
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="check_4">
+                                                        <label class="form-check-label" for="check_4">
+                                                            SAP
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="check_5">
+                                                        <label class="form-check-label" for="check_5">
+                                                            Banking
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="sidebar-dropdown">
+                                            <a href="#">
+                                                <i class="flaticon flaticon-briefcase"></i>
+                                                <span>Function Area</span>
+                                            </a>
+                                            <div class="sidebar-submenu">
+                                                <div class="option-wrap">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="check_6">
+                                                        <label class="form-check-label" for="check_6">
+                                                            Java
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="check_7">
+                                                        <label class="form-check-label" for="check_7">
+                                                            Accounts
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="sidebar-dropdown">
+                                            <a href="#">
+                                                <i class="flaticon flaticon-building"></i>
+                                                <span>Industry</span>
+                                            </a>
+                                            <div class="sidebar-submenu">
+                                                <div class="option-wrap">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="check_6">
+                                                        <label class="form-check-label" for="check_6">
+                                                            Java
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="check_7">
+                                                        <label class="form-check-label" for="check_7">
+                                                            Accounts
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="sidebar-dropdown">
+                                            <a href="#">
+                                                <i class="flaticon flaticon-settings"></i>
+                                                <span>Experience</span>
+                                            </a>
+                                            <div class="sidebar-submenu">
+                                                <div class="p-3">
+                                                    <div id="experience"></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="sidebar-dropdown">
+                                            <a href="#">
+                                                <i class="flaticon flaticon-location-1"></i>
+                                                <span>Location</span>
+                                            </a>
+                                            <div class="sidebar-submenu">
+                                                <div class="option-wrap">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="check_6">
+                                                        <label class="form-check-label" for="check_6">
+                                                            Java
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="check_7">
+                                                        <label class="form-check-label" for="check_7">
+                                                            Accounts
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="sidebar-dropdown">
+                                            <a href="#">
+                                                <i class="flaticon flaticon-rupee"></i>
+                                                <span>Cost</span>
+                                            </a>
+                                            <div class="sidebar-submenu">
+                                                <div class="p-3">
+                                                    <div id="cost"></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="sidebar-dropdown">
+                                            <a href="#">
+                                                <i class="flaticon flaticon-user"></i>
+                                                <span>Profile</span>
+                                            </a>
+                                            <div class="sidebar-submenu">
+                                                <div class="option-wrap">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="check_6">
+                                                        <label class="form-check-label" for="check_6">
+                                                            Java
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="check_7">
+                                                        <label class="form-check-label" for="check_7">
+                                                            Accounts
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-72">
+                        <h3 class="page-heading">People result for <b>12 Results</b> filter these results</h3>
+                        <div class="row row-list-md">
+                            <div class="col-sm-12 col-md-4">
+                                <div class="d-card">
+                                    <div class="media mb-2">
+                                        <div class="img-wrap">
+                                            <img src="assets/img/user-1.jpg" class="img-fluid rounded-circle"
+                                            alt="user image" width="80" height="80" />
+                                        </div>
+                                        <div class="media-body ms-4 align-self-center">
+                                            <span class="badge-purple badge"><i class="flaticon flaticon-cursor"></i>
+                                                <b>98</b> points/Hour</span>
+                                            <span class="badge-light-success badge"><i class="flaticon flaticon-briefcase"></i> 2-3
+                                                Years Exp.</span>
+                                        </div>
+                                    </div>
+                                    <div class="pl-space">
+                                        <ul class="rating mb-2 list-inline">
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star"></i>
+                                            </li>
+                                        </ul>
+                                        <h6>RC425</h6>
+                                        <address class="mb-2">
+                                            <span>SAP FICO Consultant </span>
+                                        </address>
+                                    </div>
+                                    <div class="alert alert-warning mb-2" role="alert">
+                                        SAP FI Configuration
+                                    </div>
+                                    <div>
+                                        <a href="javascript:void(0);" class="btn-success btn btn-sm">Connected <i
+                                            class="flaticon flaticon-deal ms-2 m-0 f-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="d-card">
+                                    <div class="media mb-2">
+                                        <div class="img-wrap">
+                                            <img src="assets/img/user-1.jpg" class="img-fluid rounded-circle"
+                                            alt="user image" width="80" height="80" />
+                                        </div>
+                                        <div class="media-body ms-4 align-self-center">
+                                            <span class="badge-purple badge"><i class="flaticon flaticon-cursor"></i>
+                                                <b>98</b> points/Hour</span>
+                                            <span class="badge-light-success badge"><i class="flaticon flaticon-briefcase"></i> 2-3
+                                                Years Exp.</span>
+                                        </div>
+                                    </div>
+                                    <div class="pl-space">
+                                        <ul class="rating mb-2 list-inline">
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star"></i>
+                                            </li>
+                                        </ul>
+                                        <h6>RC425</h6>
+                                        <address class="mb-2">
+                                            <span>SAP FICO Consultant </span>
+                                        </address>
+                                    </div>
+                                    <div class="alert alert-warning mb-2" role="alert">
+                                        SAP FI Configuration
+                                    </div>
+                                    <div>
+                                        <a href="javascript:void(0);" class="btn-success btn btn-sm">Connected <i
+                                            class="flaticon flaticon-deal ms-2 m-0 f-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="d-card">
+                                    <div class="media mb-2">
+                                        <div class="img-wrap">
+                                            <img src="assets/img/user-1.jpg" class="img-fluid rounded-circle"
+                                            alt="user image" width="80" height="80" />
+                                        </div>
+                                        <div class="media-body ms-4 align-self-center">
+                                            <span class="badge-purple badge"><i class="flaticon flaticon-cursor"></i>
+                                                <b>98</b> points/Hour</span>
+                                            <span class="badge-light-success badge"><i class="flaticon flaticon-briefcase"></i> 2-3
+                                                Years Exp.</span>
+                                        </div>
+                                    </div>
+                                    <div class="pl-space">
+                                        <ul class="rating mb-2 list-inline">
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star"></i>
+                                            </li>
+                                        </ul>
+                                        <h6>RC425</h6>
+                                        <address class="mb-2">
+                                            <span>SAP FICO Consultant </span>
+                                        </address>
+                                    </div>
+                                    <div class="alert alert-warning mb-2" role="alert">
+                                        SAP FI Configuration
+                                    </div>
+                                    <div>
+                                        <a href="javascript:void(0);" class="btn-success btn btn-sm">Connected <i
+                                            class="flaticon flaticon-deal ms-2 m-0 f-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="d-card">
+                                    <div class="media mb-2">
+                                        <div class="img-wrap">
+                                            <img src="assets/img/user-1.jpg" class="img-fluid rounded-circle"
+                                            alt="user image" width="80" height="80" />
+                                        </div>
+                                        <div class="media-body ms-4 align-self-center">
+                                            <span class="badge-purple badge"><i class="flaticon flaticon-cursor"></i>
+                                                <b>98</b> points/Hour</span>
+                                            <span class="badge-light-success badge"><i class="flaticon flaticon-briefcase"></i> 2-3
+                                                Years Exp.</span>
+                                        </div>
+                                    </div>
+                                    <div class="pl-space">
+                                        <ul class="rating mb-2 list-inline">
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star"></i>
+                                            </li>
+                                        </ul>
+                                        <h6>RC425</h6>
+                                        <address class="mb-2">
+                                            <span>SAP FICO Consultant </span>
+                                        </address>
+                                    </div>
+                                    <div class="alert alert-warning mb-2" role="alert">
+                                        SAP FI Configuration
+                                    </div>
+                                    <div>
+                                        <a href="javascript:void(0);" class="btn-success btn btn-sm">Connected <i
+                                            class="flaticon flaticon-deal ms-2 m-0 f-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="d-card">
+                                    <div class="media mb-2">
+                                        <div class="img-wrap">
+                                            <img src="assets/img/user-1.jpg" class="img-fluid rounded-circle"
+                                            alt="user image" width="80" height="80" />
+                                        </div>
+                                        <div class="media-body ms-4 align-self-center">
+                                            <span class="badge-purple badge"><i class="flaticon flaticon-cursor"></i>
+                                                <b>98</b> points/Hour</span>
+                                            <span class="badge-light-success badge"><i class="flaticon flaticon-briefcase"></i> 2-3
+                                                Years Exp.</span>
+                                        </div>
+                                    </div>
+                                    <div class="pl-space">
+                                        <ul class="rating mb-2 list-inline">
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star"></i>
+                                            </li>
+                                        </ul>
+                                        <h6>RC425</h6>
+                                        <address class="mb-2">
+                                            <span>SAP FICO Consultant </span>
+                                        </address>
+                                    </div>
+                                    <div class="alert alert-warning mb-2" role="alert">
+                                        SAP FI Configuration
+                                    </div>
+                                    <div>
+                                        <a href="javascript:void(0);" class="btn-success btn btn-sm">Connected <i
+                                            class="flaticon flaticon-deal ms-2 m-0 f-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="d-card">
+                                    <div class="media mb-2">
+                                        <div class="img-wrap">
+                                            <img src="assets/img/user-1.jpg" class="img-fluid rounded-circle"
+                                            alt="user image" width="80" height="80" />
+                                        </div>
+                                        <div class="media-body ms-4 align-self-center">
+                                            <span class="badge-purple badge"><i class="flaticon flaticon-cursor"></i>
+                                                <b>98</b> points/Hour</span>
+                                            <span class="badge-light-success badge"><i class="flaticon flaticon-briefcase"></i> 2-3
+                                                Years Exp.</span>
+                                        </div>
+                                    </div>
+                                    <div class="pl-space">
+                                        <ul class="rating mb-2 list-inline">
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star"></i>
+                                            </li>
+                                        </ul>
+                                        <h6>RC425</h6>
+                                        <address class="mb-2">
+                                            <span>SAP FICO Consultant </span>
+                                        </address>
+                                    </div>
+                                    <div class="alert alert-warning mb-2" role="alert">
+                                        SAP FI Configuration
+                                    </div>
+                                    <div>
+                                        <a href="javascript:void(0);" class="btn-success btn btn-sm">Connected <i
+                                            class="flaticon flaticon-deal ms-2 m-0 f-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="d-card">
+                                    <div class="media mb-2">
+                                        <div class="img-wrap">
+                                            <img src="assets/img/user-1.jpg" class="img-fluid rounded-circle"
+                                            alt="user image" width="80" height="80" />
+                                        </div>
+                                        <div class="media-body ms-4 align-self-center">
+                                            <span class="badge-purple badge"><i class="flaticon flaticon-cursor"></i>
+                                                <b>98</b> points/Hour</span>
+                                            <span class="badge-light-success badge"><i class="flaticon flaticon-briefcase"></i> 2-3
+                                                Years Exp.</span>
+                                        </div>
+                                    </div>
+                                    <div class="pl-space">
+                                        <ul class="rating mb-2 list-inline">
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star"></i>
+                                            </li>
+                                        </ul>
+                                        <h6>RC425</h6>
+                                        <address class="mb-2">
+                                            <span>SAP FICO Consultant </span>
+                                        </address>
+                                    </div>
+                                    <div class="alert alert-warning mb-2" role="alert">
+                                        SAP FI Configuration
+                                    </div>
+                                    <div>
+                                        <a href="javascript:void(0);" class="btn-success btn btn-sm">Connected <i
+                                            class="flaticon flaticon-deal ms-2 m-0 f-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="d-card">
+                                    <div class="media mb-2">
+                                        <div class="img-wrap">
+                                            <img src="assets/img/user-1.jpg" class="img-fluid rounded-circle"
+                                            alt="user image" width="80" height="80" />
+                                        </div>
+                                        <div class="media-body ms-4 align-self-center">
+                                            <span class="badge-purple badge"><i class="flaticon flaticon-cursor"></i>
+                                                <b>98</b> points/Hour</span>
+                                            <span class="badge-light-success badge"><i class="flaticon flaticon-briefcase"></i> 2-3
+                                                Years Exp.</span>
+                                        </div>
+                                    </div>
+                                    <div class="pl-space">
+                                        <ul class="rating mb-2 list-inline">
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star"></i>
+                                            </li>
+                                        </ul>
+                                        <h6>RC425</h6>
+                                        <address class="mb-2">
+                                            <span>SAP FICO Consultant </span>
+                                        </address>
+                                    </div>
+                                    <div class="alert alert-warning mb-2" role="alert">
+                                        SAP FI Configuration
+                                    </div>
+                                    <div>
+                                        <a href="javascript:void(0);" class="btn-success btn btn-sm">Connected <i
+                                            class="flaticon flaticon-deal ms-2 m-0 f-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="d-card">
+                                    <div class="media mb-2">
+                                        <div class="img-wrap">
+                                            <img src="assets/img/user-1.jpg" class="img-fluid rounded-circle"
+                                            alt="user image" width="80" height="80" />
+                                        </div>
+                                        <div class="media-body ms-4 align-self-center">
+                                            <span class="badge-purple badge"><i class="flaticon flaticon-cursor"></i>
+                                                <b>98</b> points/Hour</span>
+                                            <span class="badge-light-success badge"><i class="flaticon flaticon-briefcase"></i> 2-3
+                                                Years Exp.</span>
+                                        </div>
+                                    </div>
+                                    <div class="pl-space">
+                                        <ul class="rating mb-2 list-inline">
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star text-warning"></i>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <i class="flaticon flaticon-star"></i>
+                                            </li>
+                                        </ul>
+                                        <h6>RC425</h6>
+                                        <address class="mb-2">
+                                            <span>SAP FICO Consultant </span>
+                                        </address>
+                                    </div>
+                                    <div class="alert alert-warning mb-2" role="alert">
+                                        SAP FI Configuration
+                                    </div>
+                                    <div>
+                                        <a href="javascript:void(0);" class="btn-success btn btn-sm">Connected <i
+                                            class="flaticon flaticon-deal ms-2 m-0 f-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--main wrapper closed-->
+    </div>
+    <!--wrapper closed -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+    <script type='text/javascript'>
+        //For Tootlip
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+        // For choose btn file name
+        const actualBtn = document.getElementById('actual-btn');
+        const fileChosen = document.getElementById('file-chosen');
+        actualBtn.addEventListener('change', function () {
+            fileChosen.textContent = this.files[0].name
+        })
+    </script>
+    <script>
+        $(document).ready(function () {
+            // For Sidebar Filter toggle
+            $(".sidebar-dropdown > a").click(function () {
+                $(".sidebar-submenu").slideUp(200);
+                if (
+                    $(this)
+                        .parent()
+                        .hasClass("active")
+                ) {
+                    $(".sidebar-dropdown").removeClass("active");
+                    $(this)
+                        .parent()
+                        .removeClass("active");
+                } else {
+                    $(".sidebar-dropdown").removeClass("active");
+                    $(this)
+                        .next(".sidebar-submenu")
+                        .slideDown(200);
+                    $(this)
+                        .parent()
+                        .addClass("active");
+                }
+            });
+            // For Range Slider
+            $("#experience, #cost").ionRangeSlider({
+                type: "double",
+                grid: true,
+                min: 0,
+                max: 1000,
+                from: 200,
+                to: 800,
+                prefix: "$"
+            });
+            // For sidebar make mobile menu
+            $('.btn_filter').click(function(){
+                $('.mobile-filter').toggleClass('open');
+            });
+            $('.search-btn').click(function(){
+                $('.search-bar input').toggleClass('search-flex');
+            });
+        })
+    </script>
+</body>
+
+</html>

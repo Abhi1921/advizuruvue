@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!-- Google font Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <!--Main css File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <title>Hire Freelancers and Find Freelance Jobs Online - Advizuru</title>
+</head>
+
+<body class="bg-gray">
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top main-header">
+            <div class="container">
+                <div class="d-flex align-items-center logo-group">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon top"></span>
+                        <span class="navbar-toggler-icon middle"></span>
+                        <span class="navbar-toggler-icon bottom"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/logo.png" alt="logo" class="large-logo" width="180" height="48" />
+                        <img src="assets/img/small-logo.png" class="small-logo d-none" alt="logo" width="31" height="26" />
+                    </a>
+                </div>
+                <div class="d-flex mobile-search">
+                    <div class="search-bar d-none">
+                        <input type="text" name="search" class="form-control" placeholder="Search here..." />
+                        <button type="submit" class="search-btn">
+                            <i class="flaticon flaticon-loupe"></i>
+                        </button>
+                    </div>
+                    <div class="mobile-options d-none">
+                        <a href="javascript:void(0);" class="m-icon"><i class="flaticon flaticon-email"></i>
+                        <span class="badge badge-success">14</span></a>
+                        <a href="javascript:void(0);" class="m-icon"><i class="flaticon flaticon-alarm i-bold"></i>
+                        <span class="badge badge-danger">10</span></a>
+                        <a href="javascript:void(0);" class="ms-2"><img src="assets/img/user-1.jpg" alt="user profile" width="45" height="45"  /></a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="line-inline navbar-menu mb-0 p-0">
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Home</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Rate</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Training</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Post</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">My Team</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Recruiter</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex ms-auto head-btn">
+                        <ul class="list-inline mb-0 d-flex align-items-center">
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-bebo-social-logotype"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-membership"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-email"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-alarm"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-cogs"></i>
+                                </a>
+                            </li>
+                            <li class="profile-dropdown">
+                                <img src="assets/img/user-1.jpg" class="img-fluid rounded-circle" alt="user profile"
+                                    width="40" height="40" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="search-bar d-none mobile-xxs">
+            <input type="text" name="search" class="form-control" placeholder="Search here..." />
+            <button type="submit" class="search-btn">
+                <i class="flaticon flaticon-loupe"></i>
+            </button>
+        </div>
+        <div class="main-wrapper bg-white">
+            <div class="row g-0">
+                <div class="col-lg-6">
+                    <div class="s-left-side">
+                        <img src="assets/img/session-bg.png" class="img-fluid" alt="background session" width="" height="" />
+                    </div>
+                </div>
+                <div class="col-lg-6 d-center">
+                    <div class="s-right-side">
+                        <div class="timer_view">
+                            <div class="text-center mb-4">
+                                <img src="assets/img/session-start.png" class="img-fluid" alt="session expire" width="60" height="60" />
+                            </div>
+                            <h2 class="text-center">Your online session will start in</h2>
+                            <div class="countdown-container">
+                              <div class="days-up">
+                                <p id="days" class="big-text">253</p>
+                                <span>Days</span>
+                              </div>
+                                <div class="hours-up">
+                                <p id="hours" class="big-text">12</p>
+                                <span>Hours</span>
+                              </div>
+                                <div class="min-up">
+                                <p id="min" class="big-text">52</p>
+                                <span>Min</span>
+                              </div>
+                                <div class="sec-up">
+                                <p id="sec" class="big-text">29</p>
+                                <span>Sec</span>
+                              </div>
+                            </div>
+                            <!-- <div class="end-session">
+                                <div class="text-center mb-4">
+                                    <img src="assets/img/session-expire.png" class="img-fluid" alt="session expire" width="60" height="60" />
+                                </div>
+                                <h2 class="text-center">Sorry the session you are looking for is already ended.</h2>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--main wrapper closed-->
+    </div>
+    <!--wrapper closed -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+</body>
+</html>

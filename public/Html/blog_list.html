@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!-- Google font Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- fontawesome-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
+    <!--Select css File -->
+    <link href="{{asset('userassets/css/select2.min.css')}}" rel="stylesheet" />
+    <!--Main css File -->
+    <link href="{{asset('userassets/css/style.css')}}" rel="stylesheet" />
+    <title>Hire Freelancers and Find Freelance Jobs Online - Advizuru</title>
+</head>
+
+<body class="bg-gray">
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top main-header">
+            <div class="container">
+                <div class="d-flex align-items-center logo-group">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon top"></span>
+                        <span class="navbar-toggler-icon middle"></span>
+                        <span class="navbar-toggler-icon bottom"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="{{asset('userassets/img/logo.png')}}" alt="logo" class="large-logo" width="180" height="48" />
+                        <img src="{{asset('userassets/img/small-logo.png')}}" class="small-logo d-none" alt="logo" width="31"
+                            height="26" />
+                    </a>
+                </div>
+                <div class="d-flex mobile-search">
+                    <div class="search-bar d-none">
+                        <input type="text" name="search" class="form-control" placeholder="Search here..." />
+                        <button type="submit" class="search-btn">
+                            <i class="flaticon flaticon-loupe"></i>
+                        </button>
+                    </div>
+                    <div class="mobile-options d-none">
+                        <a href="javascript:void(0);" class="m-icon"><i class="flaticon flaticon-email"></i>
+                            <span class="badge badge-success">14</span></a>
+                        <a href="javascript:void(0);" class="m-icon"><i class="flaticon flaticon-alarm i-bold"></i>
+                            <span class="badge badge-danger">10</span></a>
+                        <a href="javascript:void(0);" class="ms-2"><img src="{{asset('userassets/img/user-1.jpg')}}" alt="user profile"
+                                width="45" height="45" /></a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="line-inline navbar-menu mb-0 p-0">
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Home</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Rate</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Training</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Post</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">My Team</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Recruiter</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex ms-auto head-btn">
+                        <ul class="list-inline mb-0 d-flex align-items-center">
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-bebo-social-logotype"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-membership"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-email"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-alarm"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-cogs"></i>
+                                </a>
+                            </li>
+                            <li class="profile-dropdown">
+                                <img src="{{asset('userassets/img/user-1.jpg')}}" class="img-fluid rounded-circle" alt="user profile"
+                                    width="40" height="40" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="search-bar d-none mobile-xxs">
+            <input type="text" name="search" class="form-control" placeholder="Search here..." />
+            <button type="submit" class="search-btn">
+                <i class="flaticon flaticon-loupe"></i>
+            </button>
+        </div>
+        <div class="menu-bar">
+            <div class="container d-start">
+                <div class="search-bar">
+                    <input type="text" name="search" class="form-control" placeholder="Search here..." />
+                    <button type="submit" class="search-btn">
+                        <i class="flaticon flaticon-loupe"></i>
+                    </button>
+                </div>
+                <div class="main-menu">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item active">
+                            <a href="javascript:void(0);">Profile</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Rate Card</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Recruitment</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Sub Contracting</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Recruiter</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Team</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Training</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-wrapper">
+            <div class="cmt-page-title-row">
+                <div class="cmt-page-title-row-inner">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-12">
+                                <div class="page-title-heading">
+                                    <h2 class="title">Blog List</h2>
+                                </div>
+                                <div class="breadcrumb-wrapper">
+                                    <span>
+                                        <a title="Homepage" href="/index">Home</a>
+                                    </span>
+                                    <span>Blog List</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                    
+            </div>
+            <div class="list-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="slide_card bg-white">
+                                <img src="{{asset('userassets/img/slide-img-1.jpg')}}" class="img-fluid" alt="slider image"
+                                    width="357" height="201" />
+                                <div class="card_content">
+                                    <h5>Recruitment</h5>
+                                    <p class="mb-2">Advizuru is an organised online market place for corporate companies
+                                        and individuals to showcase their business or individual
+                                        professional portfolio, generate qualified business leads &
+                                        associate for professional contracts.</p>
+                                    <a href="javascript:void(0);">Learn More <i class="flaticon flaticon-right-arrow"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="slide_card bg-white">
+                                <img src="{{asset('userassets/img/slide-img-2.jpg')}}" class="img-fluid" alt="slider image"
+                                    width="357" height="201" />
+                                <div class="card_content">
+                                    <h5>Freelancing</h5>
+                                    <p class="mb-2">Advizuru is an organised online market place for corporate companies
+                                        and individuals to showcase their business or individual
+                                        professional portfolio, generate qualified business leads &
+                                        associate for professional contracts.</p>
+                                    <a href="javascript:void(0);">Learn More <i class="flaticon flaticon-right-arrow"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="slide_card bg-white">
+                                <img src="{{asset('userassets/img/slide-img-3.jpg')}}" class="img-fluid" alt="slider image"
+                                    width="357" height="201" />
+                                <div class="card_content">
+                                    <h5>Subcontracting</h5>
+                                    <p class="mb-2">Advizuru is an organised online market place for corporate companies
+                                        and individuals to showcase their business or individual
+                                        professional portfolio, generate qualified business leads &
+                                        associate for professional contracts.</p>
+                                    <a href="javascript:void(0);">Learn More <i class="flaticon flaticon-right-arrow"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="slide_card bg-white">
+                                <img src="{{asset('userassets/img/slide-img-4.jpg')}}" class="img-fluid" alt="slider image"
+                                    width="357" height="201" />
+                                <div class="card_content">
+                                    <h5>Subcontracting</h5>
+                                    <p class="mb-2">Advizuru is an organised online market place for corporate companies
+                                        and individuals to showcase their business or individual
+                                        professional portfolio, generate qualified business leads &
+                                        associate for professional contracts.</p>
+                                    <a href="javascript:void(0);">Learn More <i class="flaticon flaticon-right-arrow"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="slide_card bg-white">
+                                <img src="{{asset('userassets/img/slide-img-1.jpg')}}" class="img-fluid" alt="slider image"
+                                    width="357" height="201" />
+                                <div class="card_content">
+                                    <h5>Recruitment</h5>
+                                    <p class="mb-2">Advizuru is an organised online market place for corporate companies
+                                        and individuals to showcase their business or individual
+                                        professional portfolio, generate qualified business leads &
+                                        associate for professional contracts.</p>
+                                    <a href="javascript:void(0);">Learn More <i class="flaticon flaticon-right-arrow"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="slide_card bg-white">
+                                <img src="{{asset('userassets/img/slide-img-2.jpg')}}" class="img-fluid" alt="slider image"
+                                    width="357" height="201" />
+                                <div class="card_content">
+                                    <h5>Freelancing</h5>
+                                    <p class="mb-2">Advizuru is an organised online market place for corporate companies
+                                        and individuals to showcase their business or individual
+                                        professional portfolio, generate qualified business leads &
+                                        associate for professional contracts.</p>
+                                    <a href="javascript:void(0);">Learn More <i class="flaticon flaticon-right-arrow"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="slide_card bg-white">
+                                <img src="{{asset('userassets/img/slide-img-3.jpg')}}" class="img-fluid" alt="slider image"
+                                    width="357" height="201" />
+                                <div class="card_content">
+                                    <h5>Subcontracting</h5>
+                                    <p class="mb-2">Advizuru is an organised online market place for corporate companies
+                                        and individuals to showcase their business or individual
+                                        professional portfolio, generate qualified business leads &
+                                        associate for professional contracts.</p>
+                                    <a href="javascript:void(0);">Learn More <i class="flaticon flaticon-right-arrow"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="slide_card bg-white">
+                                <img src="{{asset('userassets/img/slide-img-4.jpg')}}" class="img-fluid" alt="slider image"
+                                    width="357" height="201" />
+                                <div class="card_content">
+                                    <h5>Subcontracting</h5>
+                                    <p class="mb-2">Advizuru is an organised online market place for corporate companies
+                                        and individuals to showcase their business or individual
+                                        professional portfolio, generate qualified business leads &
+                                        associate for professional contracts.</p>
+                                    <a href="javascript:void(0);">Learn More <i class="flaticon flaticon-right-arrow"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="slide_card bg-white">
+                                <img src="{{asset('userassets/img/slide-img-1.jpg')}}" class="img-fluid" alt="slider image"
+                                    width="357" height="201" />
+                                <div class="card_content">
+                                    <h5>Recruitment</h5>
+                                    <p class="mb-2">Advizuru is an organised online market place for corporate companies
+                                        and individuals to showcase their business or individual
+                                        professional portfolio, generate qualified business leads &
+                                        associate for professional contracts.</p>
+                                    <a href="javascript:void(0);">Learn More <i class="flaticon flaticon-right-arrow"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="slide_card bg-white">
+                                <img src="{{asset('userassets/img/slide-img-2.jpg')}}" class="img-fluid" alt="slider image"
+                                    width="357" height="201" />
+                                <div class="card_content">
+                                    <h5>Freelancing</h5>
+                                    <p class="mb-2">Advizuru is an organised online market place for corporate companies
+                                        and individuals to showcase their business or individual
+                                        professional portfolio, generate qualified business leads &
+                                        associate for professional contracts.</p>
+                                    <a href="javascript:void(0);">Learn More <i class="flaticon flaticon-right-arrow"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="slide_card bg-white">
+                                <img src="{{asset('userassets/img/slide-img-3.jpg')}}" class="img-fluid" alt="slider image"
+                                    width="357" height="201" />
+                                <div class="card_content">
+                                    <h5>Subcontracting</h5>
+                                    <p class="mb-2">Advizuru is an organised online market place for corporate companies
+                                        and individuals to showcase their business or individual
+                                        professional portfolio, generate qualified business leads &
+                                        associate for professional contracts.</p>
+                                    <a href="javascript:void(0);">Learn More <i class="flaticon flaticon-right-arrow"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="slide_card bg-white">
+                                <img src="{{asset('userassets/img/slide-img-4.jpg')}}" class="img-fluid" alt="slider image"
+                                    width="357" height="201" />
+                                <div class="card_content">
+                                    <h5>Subcontracting</h5>
+                                    <p class="mb-2">Advizuru is an organised online market place for corporate companies
+                                        and individuals to showcase their business or individual
+                                        professional portfolio, generate qualified business leads &
+                                        associate for professional contracts.</p>
+                                    <a href="javascript:void(0);">Learn More <i class="flaticon flaticon-right-arrow"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--main wrapper closed-->
+        <footer class="bg-white">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer-logo">
+                            <img src="{{asset('userassets/img/ag-logo.png')}}" class="img-fluid d-inline-block mb-4" alt="footer logo"
+                                width="180" height="51" />
+                            <p class="mb-0">Advizuru is an organised online market place for corporate companies and
+                                individuals to
+                                showcase their business or individual professional portfolio, generate qualified
+                                business leads & associate for professional contracts.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="f_heading">Useful Links</h4>
+                        <ul class="list-unstyled footer-nav">
+                            <li>
+                                <a href="javascript:void(0);">Home</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Find Project</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">About Us</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Our Services</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="f_heading">Useful Links</h4>
+                        <ul class="list-unstyled footer-nav">
+                            <li>
+                                <a href="javascript:void(0);">Cookies</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Privacy & Policy</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="f_heading">CONTACT WITH US</h4>
+                        <ul class="list-unstyled footer-nav">
+                            <li>
+                                <a href="javascript:void(0);"><i class=""></i> (+91) 9123456798</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><i class=""></i> info@advizuru.com</a>
+                            </li>
+                        </ul>
+                        <h4 class="f_heading">FOLLOW US</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="javascript:void(0);"><i class=""></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><i class=""></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><i class=""></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><i class=""></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><i class=""></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><i class=""></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><i class=""></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!--wrapper closed -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const actualBtn = document.getElementById('actual-btn');
+        const fileChosen = document.getElementById('file-chosen');
+        actualBtn.addEventListener('change', function () {
+            fileChosen.textContent = this.files[0].name
+        })
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".sidebar-dropdown > a").click(function () {
+                $(".sidebar-submenu").slideUp(200);
+                if (
+                    $(this)
+                        .parent()
+                        .hasClass("active")
+                ) {
+                    $(".sidebar-dropdown").removeClass("active");
+                    $(this)
+                        .parent()
+                        .removeClass("active");
+                } else {
+                    $(".sidebar-dropdown").removeClass("active");
+                    $(this)
+                        .next(".sidebar-submenu")
+                        .slideDown(200);
+                    $(this)
+                        .parent()
+                        .addClass("active");
+                }
+            });
+        })
+    </script>
+</body>
+
+</html>

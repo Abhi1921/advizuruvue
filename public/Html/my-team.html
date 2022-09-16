@@ -1,0 +1,926 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!-- Google font Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!--Main css File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <title>Hire Freelancers and Find Freelance Jobs Online - Advizuru</title>
+</head>
+
+<body class="bg-gray">
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top main-header">
+            <div class="container">
+                <div class="d-flex align-items-center logo-group">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon top"></span>
+                        <span class="navbar-toggler-icon middle"></span>
+                        <span class="navbar-toggler-icon bottom"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/logo.png" alt="logo" class="large-logo" width="180" height="48" />
+                        <img src="assets/img/small-logo.png" class="small-logo d-none" alt="logo" width="31" height="26" />
+                    </a>
+                </div>
+                <div class="d-flex mobile-search">
+                    <div class="search-bar d-none">
+                        <input type="text" name="search" class="form-control" placeholder="Search here..." />
+                        <button type="submit" class="search-btn">
+                            <i class="flaticon flaticon-loupe"></i>
+                        </button>
+                    </div>
+                    <div class="mobile-options d-none">
+                        <a href="javascript:void(0);" class="m-icon"><i class="flaticon flaticon-email"></i>
+                        <span class="badge badge-success">14</span></a>
+                        <a href="javascript:void(0);" class="m-icon"><i class="flaticon flaticon-alarm i-bold"></i>
+                        <span class="badge badge-danger">10</span></a>
+                        <a href="javascript:void(0);" class="ms-2"><img src="assets/img/user-1.jpg" alt="user profile" width="45" height="45"  /></a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="line-inline navbar-menu mb-0 p-0">
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Home</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Rate</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Training</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Post</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">My Team</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Recruiter</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex ms-auto head-btn">
+                        <ul class="list-inline mb-0 d-flex align-items-center">
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-bebo-social-logotype"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-membership"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-email"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-alarm"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);">
+                                    <i class="flaticon flaticon-cogs"></i>
+                                </a>
+                            </li>
+                            <li class="profile-dropdown">
+                                <img src="assets/img/user-1.jpg" class="img-fluid rounded-circle" alt="user profile"
+                                    width="40" height="40" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="search-bar d-none mobile-xxs">
+            <input type="text" name="search" class="form-control" placeholder="Search here..." />
+            <button type="submit" class="search-btn">
+                <i class="flaticon flaticon-loupe"></i>
+            </button>
+        </div>
+        <div class="menu-bar">
+            <div class="container d-start">
+                <div class="search-bar">
+                    <input type="text" name="search" class="form-control" placeholder="Search here..." />
+                    <button type="submit" class="search-btn">
+                        <i class="flaticon flaticon-loupe"></i>
+                    </button>
+                </div>
+                <div class="main-menu">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item active">
+                            <a href="javascript:void(0);">Profile</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Rate Card</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Recruitment</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Sub Contracting</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Recruiter</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Team</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);">Training</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-wrapper spacing">
+            <div class="container">
+                <div class="tab-wrap full-tab">
+                    <nav class="cust-nav-tab">
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <button class="nav-link active" id="nav-member-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-member" type="button" role="tab" aria-controls="nav-member"
+                                aria-selected="true">Member</button>
+                            <button class="nav-link" id="nav-team-tab" data-bs-toggle="tab" data-bs-target="#nav-team"
+                                type="button" role="tab" aria-controls="nav-team" aria-selected="false">Team</button>
+                            <button class="nav-link" id="nav-task-tab" data-bs-toggle="tab" data-bs-target="#nav-task"
+                                type="button" role="tab" aria-controls="nav-task" aria-selected="false">Task</button>
+                            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                                aria-selected="false">Saved Profiles</button>
+                        </div>
+                    </nav>
+                    <div class="tab-content cust-tab" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-member" role="tabpanel"
+                            aria-labelledby="nav-member-tab">
+                            <div class="d-flex justify-content-end top-thead">
+                                <a href="javascript:void(0);" class="link">Add Member <i
+                                        class="flaticon flaticon-add i-bold"></i></a>
+                            </div>
+                            <div class="search-card row">
+                                <div class="col-md-5">
+                                    <div class="form-group mb-0">
+                                        <label>Location</label>
+                                        <select class="form-select">
+                                            <option>Please Select</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="form-group mb-0">
+                                        <label>Skill</label>
+                                        <input type="text" class="form-control" name="Company"
+                                            placeholder="Type Your text" />
+                                    </div>
+                                </div>
+                                <div class="col-md-2 align-self-end">
+                                    <a href="javascript:void(0);" class="btn btn-primary btn-sm">Submit</a>
+                                    <a href="javascript:void(0);" class="btn btn-outline-primary btn-sm">Clear</a>
+                                </div>
+                            </div>
+                            <div class="listing list-sm">
+                                <div class="exp-card align-items-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Title</span>
+                                            <span>: <a href="javascript:void(0);">SAP EPM</a></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Full Name</span>
+                                            <span>: Swapnil V.Patil</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Availability</span>
+                                            <span>: Full Time</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary">
+                                                Assign Team
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card align-items-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Title</span>
+                                            <span>: <a href="javascript:void(0);">SAP EPM</a></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Full Name</span>
+                                            <span>: Swapnil V.Patil</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Availability</span>
+                                            <span>: Full Time</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary">
+                                                Assign Team
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card align-items-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Title</span>
+                                            <span>: <a href="javascript:void(0);">SAP EPM</a></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Full Name</span>
+                                            <span>: Swapnil V.Patil</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Availability</span>
+                                            <span>: Full Time</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary">
+                                                Assign Team
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card align-items-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Title</span>
+                                            <span>: <a href="javascript:void(0);">SAP EPM</a></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Full Name</span>
+                                            <span>: Swapnil V.Patil</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Availability</span>
+                                            <span>: Full Time</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary">
+                                                Assign Team
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card align-items-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Title</span>
+                                            <span>: <a href="javascript:void(0);">SAP EPM</a></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Full Name</span>
+                                            <span>: Swapnil V.Patil</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Availability</span>
+                                            <span>: Full Time</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary">
+                                                Assign Team
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card align-items-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Title</span>
+                                            <span>: <a href="javascript:void(0);">SAP EPM</a></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Full Name</span>
+                                            <span>: Swapnil V.Patil</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Availability</span>
+                                            <span>: Full Time</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary">
+                                                Assign Team
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card align-items-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Title</span>
+                                            <span>: <a href="javascript:void(0);">SAP EPM</a></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Full Name</span>
+                                            <span>: Swapnil V.Patil</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Availability</span>
+                                            <span>: Full Time</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary">
+                                                Assign Team
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card align-items-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Title</span>
+                                            <span>: <a href="javascript:void(0);">SAP EPM</a></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Full Name</span>
+                                            <span>: Swapnil V.Patil</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Availability</span>
+                                            <span>: Full Time</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary">
+                                                Assign Team
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="list-foot mt-4">
+                                    <span class="text-muted small">Showing 1 to 10 of 35 entries</span>
+                                    <nav class="cust-pagination" aria-label="...">
+                                        <ul class="pagination mb-0">
+                                            <li class="page-item prev">
+                                                <a class="page-link" href="#" tabindex="-1"
+                                                    aria-disabled="true">Prev</a>
+                                            </li>
+                                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"> <a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                            <li class="page-item next">
+                                                <a class="page-link" href="#">Next</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-team" role="tabpanel" aria-labelledby="nav-team-tab">
+                            <div class="d-flex justify-content-end top-thead">
+                                <a href="javascript:void(0);" class="link">Add Team <i
+                                        class="flaticon flaticon-add i-bold"></i></a>
+                            </div>
+                            <div class="listing list-sm">
+                                <div class="exp-card align-items-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Title</span>
+                                            <span>: Team 4</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Team Member</span>
+                                            <span>: dineshbabu, Neelabh Dutta , SHANU KUMAR, vineet maheshwari, Abhishek Munshi</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li class="flex-end">
+                                            <a href="javascript:void(0);" class="btn-ssm btn-success-light">
+                                                <i class="flaticon-check"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                <i class="flaticon flaticon-pen i-bold"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                <i class="flaticon flaticon-delete"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card align-items-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Title</span>
+                                            <span>: Team 4</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Team Member</span>
+                                            <span>: dineshbabu, Neelabh Dutta , SHANU KUMAR, vineet maheshwari, Abhishek Munshi</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li class="flex-end">
+                                            <a href="javascript:void(0);" class="btn-ssm btn-success-light">
+                                                <i class="flaticon-check"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                <i class="flaticon flaticon-pen i-bold"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                <i class="flaticon flaticon-delete"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card align-items-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Title</span>
+                                            <span>: Team 4</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Team Member</span>
+                                            <span>: dineshbabu, Neelabh Dutta , SHANU KUMAR, vineet maheshwari, Abhishek Munshi</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li class="flex-end">
+                                            <a href="javascript:void(0);" class="btn-ssm btn-success-light">
+                                                <i class="flaticon-check"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                <i class="flaticon flaticon-pen i-bold"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                <i class="flaticon flaticon-delete"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card align-items-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Title</span>
+                                            <span>: Team 4</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Team Member</span>
+                                            <span>: dineshbabu, Neelabh Dutta , SHANU KUMAR, vineet maheshwari, Abhishek Munshi</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li class="flex-end">
+                                            <a href="javascript:void(0);" class="btn-ssm btn-success-light">
+                                                <i class="flaticon-check"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                <i class="flaticon flaticon-pen i-bold"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                <i class="flaticon flaticon-delete"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card align-items-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Title</span>
+                                            <span>: Team 4</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Team Member</span>
+                                            <span>: dineshbabu, Neelabh Dutta , SHANU KUMAR, vineet maheshwari, Abhishek Munshi</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li class="flex-end">
+                                            <a href="javascript:void(0);" class="btn-ssm btn-success-light">
+                                                <i class="flaticon-check"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                <i class="flaticon flaticon-pen i-bold"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                <i class="flaticon flaticon-delete"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-task" role="tabpanel" aria-labelledby="nav-task-tab">
+                            <div class="d-flex justify-content-end top-thead">
+                                <a href="javascript:void(0);" class="link">Add Task <i class="flaticon flaticon-add"></i></a>
+                            </div>
+                            <div class="listing">
+                                <div class="exp-card align-items-center grid-3">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Title</span>
+                                            <span>: Team 4</span>
+                                        </li>
+                                        <li>
+                                            <span>Description</span>
+                                            <span class="des">: Free Active icons in various UI design styles for web and mobile.Free Active icons in </span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Assigned To</span>
+                                            <span>: Ajit Sarangi</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <select class="form-select gray-select">
+                                                <option>Change Status</option>
+                                            </select>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card align-items-center grid-3">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Title</span>
+                                            <span>: Team 4</span>
+                                        </li>
+                                        <li>
+                                            <span>Description</span>
+                                            <span class="des">: Free Active icons in various UI design styles for web and mobile.Free Active icons in </span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Assigned To</span>
+                                            <span>: Ajit Sarangi</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <select class="form-select gray-select">
+                                                <option>Change Status</option>
+                                            </select>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card align-items-center grid-3">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Title</span>
+                                            <span>: Team 4</span>
+                                        </li>
+                                        <li>
+                                            <span>Description</span>
+                                            <span class="des">: Free Active icons in various UI design styles for web and mobile.Free Active icons in </span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Assigned To</span>
+                                            <span>: Ajit Sarangi</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <select class="form-select gray-select">
+                                                <option>Change Status</option>
+                                            </select>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card align-items-center grid-3">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Title</span>
+                                            <span>: Team 4</span>
+                                        </li>
+                                        <li>
+                                            <span>Description</span>
+                                            <span class="des">: Free Active icons in various UI design styles for web and mobile.Free Active icons in </span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Assigned To</span>
+                                            <span>: Ajit Sarangi</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <select class="form-select gray-select">
+                                                <option>Change Status</option>
+                                            </select>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card align-items-center grid-3">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Title</span>
+                                            <span>: Team 4</span>
+                                        </li>
+                                        <li>
+                                            <span>Description</span>
+                                            <span class="des">: Free Active icons in various UI design styles for web and mobile.Free Active icons in </span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Assigned To</span>
+                                            <span>: Ajit Sarangi</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <select class="form-select gray-select">
+                                                <option>Change Status</option>
+                                            </select>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card align-items-center grid-3">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Title</span>
+                                            <span>: Team 4</span>
+                                        </li>
+                                        <li>
+                                            <span>Description</span>
+                                            <span class="des">: Free Active icons in various UI design styles for web and mobile.Free Active icons in </span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Assigned To</span>
+                                            <span>: Ajit Sarangi</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <select class="form-select gray-select">
+                                                <option>Change Status</option>
+                                            </select>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="d-flex justify-content-end top-thead">
+                                <a href="javascript:void(0);" class="link">Create Agenda <i
+                                        class="flaticon flaticon-add"></i></a>
+                            </div>
+                            <div class="listing">
+                                <div class="exp-card align-items-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Topic</span>
+                                            <span>: SAP EPM</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Training Program</span>
+                                            <span>: SAP EPM traning</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary">
+                                                ADD SESSION
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary">
+                                                VIEW SESSION
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li class="flex-end">
+                                            <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                <i class="flaticon flaticon-pen i-bold"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                <i class="flaticon flaticon-delete"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card align-items-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Topic</span>
+                                            <span>: SAP EPM</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Training Program</span>
+                                            <span>: SAP EPM traning</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary">
+                                                ADD SESSION
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary">
+                                                VIEW SESSION
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li class="flex-end">
+                                            <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                <i class="flaticon flaticon-pen i-bold"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                <i class="flaticon flaticon-delete"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card align-items-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Topic</span>
+                                            <span>: SAP EPM</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Training Program</span>
+                                            <span>: SAP EPM traning</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary">
+                                                ADD SESSION
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary">
+                                                VIEW SESSION
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li class="flex-end">
+                                            <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                <i class="flaticon flaticon-pen i-bold"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                <i class="flaticon flaticon-delete"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="exp-card align-items-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Topic</span>
+                                            <span>: SAP EPM</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <span>Training Program</span>
+                                            <span>: SAP EPM traning</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary">
+                                                ADD SESSION
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" class="btn-sm btn-outline-primary">
+                                                VIEW SESSION
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li class="flex-end">
+                                            <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                <i class="flaticon flaticon-pen i-bold"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                <i class="flaticon flaticon-delete"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--main wrapper closed-->
+    </div>
+    <!--wrapper closed -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const actualBtn = document.getElementById('actual-btn');
+        const fileChosen = document.getElementById('file-chosen');
+        actualBtn.addEventListener('change', function () {
+            fileChosen.textContent = this.files[0].name
+        })
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".sidebar-dropdown > a").click(function () {
+                $(".sidebar-submenu").slideUp(200);
+                if (
+                    $(this)
+                        .parent()
+                        .hasClass("active")
+                ) {
+                    $(".sidebar-dropdown").removeClass("active");
+                    $(this)
+                        .parent()
+                        .removeClass("active");
+                } else {
+                    $(".sidebar-dropdown").removeClass("active");
+                    $(this)
+                        .next(".sidebar-submenu")
+                        .slideDown(200);
+                    $(this)
+                        .parent()
+                        .addClass("active");
+                }
+            });
+        })
+    </script>
+</body>
+
+</html>
