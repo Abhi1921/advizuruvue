@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/profileorg", {data:[{}],fetch:{},mutations:[]});
