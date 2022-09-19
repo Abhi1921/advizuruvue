@@ -1815,12 +1815,11 @@
       data() {
         return {
             form: {
-                email: '',
-                password: '',
-                password_confirmation: '',
-                role_id: this.$route.query.role,
-                device_type: 'Web',
-                device_token: 'Token'
+                skill_id: '',
+                year_of_experience: '',
+                projects_done: '',
+                proficiency: '',
+                device_token: ''
             },
             serverErrorMessage: false
         }
