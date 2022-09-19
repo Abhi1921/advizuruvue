@@ -3,6 +3,7 @@
 <modal name="loginModal" height="auto" width="90%" :maxWidth="550" :adaptive="true" :scrollable="true">
     <div class="login_modal">
         <div class="modal-body">
+            
             <div class="mb-4">
                 <h5>Log in to Advizuru</h5>
                 <p class="mb-0">Welcome Back! Login with your data that you entered during registration</p>
@@ -10,6 +11,7 @@
             <div class="d-none alert" id='after-submit'>
 
             </div>
+            
             <ValidationObserver ref="loginForm" v-slot="{ handleSubmit }" @submit.prevent="submit()">
                 <form method="POST" action="javascript:void(0);" vid="loginForm">
 

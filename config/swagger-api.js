@@ -53,6 +53,22 @@ export const SwaggerApi = {
         }
       
     },
+    '/auth/logout': {
+      post: {
+        operationId: 'logout',
+        consumes: ['application/json'],
+        produces: ['application/json']
+      }
+    
+  },
+  '/user/skill': {
+    post: {
+      operationId: 'addskills',
+      consumes: ['application/json'],
+      produces: ['application/json']
+    }
+  
+},
     '/general/static-master-data': {
       post: {
         operationId: 'staticGeneralData',

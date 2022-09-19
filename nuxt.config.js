@@ -21,6 +21,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
+      { rel:"stylesheet", type:"text/css", href:'https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     script: [
@@ -28,7 +29,12 @@ export default {
         src:
           "https://maps.googleapis.com/maps/api/js?key=AIzaSyBKOdL4WZ-MfAvXUancATwFpwd4xsMUKNw&libraries=places",
           type: "text/javascript"
-      }
+      },
+      {
+      src:
+      "https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js",
+      type: "text/javascript"
+    },
     ]
   },
 

@@ -25,7 +25,7 @@
                     </div>
                     <div class="mobile-options d-none">
                         <div class="dropdown message dropdown-widget">
-                            <a href="javascript:void(0);" class="m-icon dropdown-toggle" type="button"
+                            <a  class="m-icon dropdown-toggle" type="button"
                             id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="flaticon flaticon-email"></i>
                                 <span class="badge badge-success badge-notify">14</span>
@@ -106,7 +106,7 @@
                             </div>
                         </div>
                         <div class="dropdown notification dropdown-widget">
-                            <a href="javascript:void(0);" class="m-icon dropdown-toggle" type="button"
+                            <a  class="m-icon dropdown-toggle" type="button"
                             id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="flaticon flaticon-alarm i-bold"></i>
                                 <span class="badge badge-danger badge-notify">10</span>
@@ -162,15 +162,15 @@
                                         </ul>
                                     </div>
                                     <div class="dropdown-foot">
-                                        <a href="javascript:void(0);" class="btn-sm btn btn-primary">View all</a>
+                                        <a  class="btn-sm btn btn-primary">View all</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- <a href="javascript:void(0);" class="ms-2"><img src="~assets/img/alok.jpg" alt="user profile"
+                        <!-- <a  class="ms-2"><img src="~assets/img/alok.jpg" alt="user profile"
                                 width="45" height="45" /></a> -->
                         <div class="profile-dropdown dropdown dropdown-widget">
-                            <a href="javascript:void(0);" class="dropdown-toggle ms-2" type="button"
+                            <a  class="dropdown-toggle ms-2" type="button"
                                 id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                 <img src="~assets/img/alok.jpg" class="rounded-circle" alt="user profile"
                                 width="45" height="45" />
@@ -180,61 +180,61 @@
                                     <div class="ag-scroll-x">
                                         <ul class="dropdown-list list-unstyled mb-0">
                                             <li>
-                                                <a href="javascript:void(0);">
+                                                <a >
                                                     <i class="flaticon flaticon-user"></i>
                                                     <span>My Profile</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="javascript:void(0);">
+                                                <a >
                                                     <i class="flaticon flaticon-rupee"></i>
                                                     <span>My Interests Sent</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="javascript:void(0);">
+                                                <a >
                                                     <i class="flaticon flaticon-group"></i>
                                                     <span>Admin Recommendations</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="javascript:void(0);">
+                                                <a >
                                                     <i class="flaticon flaticon-settings"></i>
                                                     <span>Change Password</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="javascript:void(0);">
+                                                <a >
                                                     <i class="flaticon flaticon-credit-card"></i>
                                                     <span>Pay Now</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="javascript:void(0);">
+                                                <a >
                                                     <i class="flaticon flaticon-note"></i>
                                                     <span>Transaction History</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="javascript:void(0);">
+                                                <a >
                                                     <i class="flaticon flaticon-star"></i>
                                                     <span>Points History</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="javascript:void(0);">
+                                                <a >
                                                     <i class="flaticon flaticon-cloud-sync"></i>
                                                     <span>Services</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="javascript:void(0);">
+                                                <a >
                                                     <i class="flaticon flaticon-membership"></i>
                                                     <span>Redeem</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="javascript:void(0);">
+                                                <a  @click="Logout">
                                                     <i class="flaticon flaticon-lock"></i>
                                                     <span>Logout</span>
                                                 </a>
@@ -252,35 +252,35 @@
                             <NuxtLink to="/">Home</NuxtLink>
                         </li>
                         <li class="list-inline-item">
-                            <a href="javascript:void(0);">Rate</a>
+                            <a >Rate</a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="javascript:void(0);">Training</a>
+                            <a >Training</a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="javascript:void(0);">Post</a>
+                            <a >Post</a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="javascript:void(0);">My Team</a>
+                            <a >My Team</a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="javascript:void(0);">Recruiter</a>
+                            <a >Recruiter</a>
                         </li>
                     </ul>
                     <div class="d-flex ms-auto head-btn">
                         <ul class="list-inline mb-0 d-flex align-items-center">
                             <li class="list-inline-item">
-                                <a href="javascript:void(0);">
+                                <a >
                                     <i class="flaticon flaticon-bebo-social-logotype"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="javascript:void(0);">
+                                <a >
                                     <i class="flaticon flaticon-membership"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item dropdown message dropdown-widget">
-                                <a href="javascript:void(0);" class="dropdown-toggle" type="button"
+                                <a  class="dropdown-toggle" type="button"
                                 id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                     <i class="flaticon flaticon-email"></i>
                                 </a>
@@ -360,7 +360,7 @@
                                 </div>
                             </li>
                             <li class="list-inline-item dropdown notification dropdown-widget">
-                                <a href="javascript:void(0);" class="dropdown-toggle" type="button"
+                                <a  class="dropdown-toggle" type="button"
                                     id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                     <i class="flaticon flaticon-alarm"></i>
                                 </a>
@@ -415,18 +415,18 @@
                                             </ul>
                                         </div>
                                         <div class="dropdown-foot">
-                                            <a href="javascript:void(0);" class="btn-sm btn btn-primary">View all</a>
+                                            <a  class="btn-sm btn btn-primary">View all</a>
                                         </div>
                                     </div>
                                 </div>
                             </li>
                             <li class="list-inline-item">
-                                <a href="javascript:void(0);">
+                                <a >
                                     <i class="flaticon flaticon-cogs"></i>
                                 </a>
                             </li>
                             <li class="profile-dropdown dropdown dropdown-widget">
-                                <a href="javascript:void(0);" class="dropdown-toggle" type="button"
+                                <a  class="dropdown-toggle" type="button"
                                     id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                     <img src="~assets/img/alok.jpg" class="img-fluid rounded-circle" alt="user profile"
                                     width="40" height="40" />
@@ -436,61 +436,61 @@
                                         <div class="ag-scroll-x">
                                             <ul class="dropdown-list list-unstyled mb-0">
                                                 <li>
-                                                    <a href="javascript:void(0);">
+                                                    <a >
                                                         <i class="flaticon flaticon-user"></i>
                                                         <span>My Profile</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0);">
+                                                    <a >
                                                         <i class="flaticon flaticon-rupee"></i>
                                                         <span>My Interests Sent</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0);">
+                                                    <a >
                                                         <i class="flaticon flaticon-group"></i>
                                                         <span>Admin Recommendations</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0);">
+                                                    <a >
                                                         <i class="flaticon flaticon-settings"></i>
                                                         <span>Change Password</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0);">
+                                                    <a >
                                                         <i class="flaticon flaticon-credit-card"></i>
                                                         <span>Pay Now</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0);">
+                                                    <a >
                                                         <i class="flaticon flaticon-note"></i>
                                                         <span>Transaction History</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0);">
+                                                    <a >
                                                         <i class="flaticon flaticon-star"></i>
                                                         <span>Points History</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0);">
+                                                    <a >
                                                         <i class="flaticon flaticon-cloud-sync"></i>
                                                         <span>Services</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0);">
+                                                    <a >
                                                         <i class="flaticon flaticon-membership"></i>
                                                         <span>Redeem</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0);">
+                                                    <a @click="Logout">
                                                         <i class="flaticon flaticon-lock"></i>
                                                         <span>Logout</span>
                                                     </a>
@@ -563,22 +563,22 @@
                                     </div>
                                     <div class="d-between edit-prof">
                                         <h5>Aalok N Koomar</h5>
-                                        <a href="javascript:void(0);"><i class="flaticon flaticon-pen"></i></a>
+                                        <a ><i class="flaticon flaticon-pen"></i></a>
                                     </div>
-                                    <span class="complete">Profile Completeness<a href="javascript:void(0);">(Complete
+                                    <span class="complete">Profile Completeness<a >(Complete
                                             Profile)</a></span>
                                     <div class="progress">
                                         <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
                                             aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                     <!-- <div class="d-between google-contact">
-                                        <span>[IMMEDIATE, WEEKEND]</span><a href="javascript:void(0);">Google contact</a>
+                                        <span>[IMMEDIATE, WEEKEND]</span><a >Google contact</a>
                                     </div> -->
                                 </div>
                                 <div class="gray-card">
                                     <div class="d-between card-title">
                                         <h6>Remuneration</h6>
-                                        <a href="javascript:void(0);"><i class="flaticon flaticon-pen i-bold"></i></a>
+                                        <a ><i class="flaticon flaticon-pen i-bold"></i></a>
                                     </div>
                                     <ul class="u-list list-unstyled">
                                         <li>
@@ -598,7 +598,7 @@
                                 <div class="gray-card">
                                     <div class="d-between card-title">
                                         <h6>Remuneration</h6>
-                                        <a href="javascript:void(0);"><i class="flaticon flaticon-pen i-bold"></i></a>
+                                        <a ><i class="flaticon flaticon-pen i-bold"></i></a>
                                     </div>
                                     <ul class="u-list list-unstyled">
                                         <li>
@@ -706,7 +706,7 @@
                                 <div class="tab-pane fade show active" id="nav-skill" role="tabpanel"
                                     aria-labelledby="nav-skill-tab">
                                     <div class="d-flex justify-content-end top-thead">
-                                        <a href="javascript:void(0);" class="btn btn-primary btn-sm"
+                                        <a  class="btn btn-primary btn-sm"
                                             data-bs-toggle="modal" data-bs-target="#addSkills"><i
                                                 class="flaticon flaticon-add me-2"></i> Skills</a>
                                     </div>
@@ -750,11 +750,11 @@
                                             </ul>
                                             <ul class="list-unstyled align-self-center">
                                                 <li class="flex-end">
-                                                    <a href="javascript:void(0);" class="btn-ssm btn-primary-light"
+                                                    <a  class="btn-ssm btn-primary-light"
                                                     data-bs-toggle="modal" data-bs-target="#editSkill">
                                                         <i class="flaticon flaticon-pen m-0 i-bold"></i>
                                                     </a>
-                                                    <a href="javascript:void(0);" class="btn-ssm btn-danger-light"
+                                                    <a  class="btn-ssm btn-danger-light"
                                                     data-bs-toggle="modal" data-bs-target="#deletePopup">
                                                         <i class="flaticon flaticon-delete m-0"></i>
                                                     </a>
@@ -800,11 +800,11 @@
                                             </ul>
                                             <ul class="list-unstyled align-self-center">
                                                 <li class="flex-end">
-                                                    <a href="javascript:void(0);" class="btn-ssm btn-primary-light"
+                                                    <a  class="btn-ssm btn-primary-light"
                                                     data-bs-toggle="modal" data-bs-target="#editSkill">
                                                         <i class="flaticon flaticon-pen m-0 i-bold"></i>
                                                     </a>
-                                                    <a href="javascript:void(0);" class="btn-ssm btn-danger-light"
+                                                    <a  class="btn-ssm btn-danger-light"
                                                     data-bs-toggle="modal" data-bs-target="#deletePopup">
                                                         <i class="flaticon flaticon-delete m-0"></i>
                                                     </a>
@@ -850,11 +850,11 @@
                                             </ul>
                                             <ul class="list-unstyled align-self-center">
                                                 <li class="flex-end">
-                                                    <a href="javascript:void(0);" class="btn-ssm btn-primary-light"
+                                                    <a  class="btn-ssm btn-primary-light"
                                                     data-bs-toggle="modal" data-bs-target="#editSkill">
                                                         <i class="flaticon flaticon-pen m-0 i-bold"></i>
                                                     </a>
-                                                    <a href="javascript:void(0);" class="btn-ssm btn-danger-light"
+                                                    <a  class="btn-ssm btn-danger-light"
                                                     data-bs-toggle="modal" data-bs-target="#deletePopup">
                                                         <i class="flaticon flaticon-delete m-0"></i>
                                                     </a>
@@ -900,11 +900,11 @@
                                             </ul>
                                             <ul class="list-unstyled align-self-center">
                                                 <li class="flex-end">
-                                                    <a href="javascript:void(0);" class="btn-ssm btn-primary-light"
+                                                    <a  class="btn-ssm btn-primary-light"
                                                     data-bs-toggle="modal" data-bs-target="#editSkill">
                                                         <i class="flaticon flaticon-pen m-0 i-bold"></i>
                                                     </a>
-                                                    <a href="javascript:void(0);" class="btn-ssm btn-danger-light"
+                                                    <a  class="btn-ssm btn-danger-light"
                                                     data-bs-toggle="modal" data-bs-target="#deletePopup">
                                                         <i class="flaticon flaticon-delete m-0"></i>
                                                     </a>
@@ -1017,7 +1017,7 @@
                                 <div class="tab-pane fade" id="nav-project" role="tabpanel"
                                     aria-labelledby="nav-project-tab">
                                     <div class="d-flex justify-content-end top-thead">
-                                        <a href="javascript:void(0);" class="btn btn-primary btn-sm"><i
+                                        <a  class="btn btn-primary btn-sm"><i
                                                 class="flaticon flaticon-add me-2"></i> Project</a>
                                     </div>
                                     <div class="project-list">
@@ -1039,11 +1039,11 @@
                                                 <span>:8 Months</span>
                                             </li>
                                             <li class="d-btn-block">
-                                                <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                <a  class="btn-ssm btn-primary-light">
                                                     <i class="flaticon flaticon-pen"></i>
                                                     Edit
                                                 </a>
-                                                <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                <a  class="btn-ssm btn-danger-light">
                                                     <i class="flaticon flaticon-delete"></i>
                                                     Delete
                                                 </a>
@@ -1073,11 +1073,11 @@
                                                     with the release of Letraset sheets</span>
                                             </li>
                                             <li class="d-btn-block">
-                                                <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                <a  class="btn-ssm btn-primary-light">
                                                     <i class="flaticon flaticon-pen"></i>
                                                     Edit
                                                 </a>
-                                                <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                <a  class="btn-ssm btn-danger-light">
                                                     <i class="flaticon flaticon-delete"></i>
                                                     Delete
                                                 </a>
@@ -1087,7 +1087,7 @@
                                 </div>
                                 <div class="tab-pane fade" id="nav-edu" role="tabpanel" aria-labelledby="nav-edu-tab">
                                     <div class="d-flex justify-content-end top-thead">
-                                        <a href="javascript:void(0);" class="btn btn-primary btn-sm"><i
+                                        <a  class="btn btn-primary btn-sm"><i
                                                 class="flaticon flaticon-add me-2"></i> Education</a>
                                     </div>
                                     <div class="edu-list">
@@ -1112,12 +1112,12 @@
                                                             <span>:2005</span>
                                                         </li>
                                                         <li class="mt-3">
-                                                            <a href="javascript:void(0);"
+                                                            <a 
                                                                 class="btn-ssm btn-primary-light">
                                                                 <i class="flaticon flaticon-pen"></i>
                                                                 Edit
                                                             </a>
-                                                            <a href="javascript:void(0);"
+                                                            <a 
                                                                 class="btn-ssm btn-danger-light">
                                                                 <i class="flaticon flaticon-delete"></i>
                                                                 Delete
@@ -1146,12 +1146,12 @@
                                                             <span>:2005</span>
                                                         </li>
                                                         <li class="mt-3">
-                                                            <a href="javascript:void(0);"
+                                                            <a 
                                                                 class="btn-ssm btn-primary-light">
                                                                 <i class="flaticon flaticon-pen"></i>
                                                                 Edit
                                                             </a>
-                                                            <a href="javascript:void(0);"
+                                                            <a 
                                                                 class="btn-ssm btn-danger-light">
                                                                 <i class="flaticon flaticon-delete"></i>
                                                                 Delete
@@ -1182,12 +1182,12 @@
                                                             <span>:2005</span>
                                                         </li>
                                                         <li class="mt-3">
-                                                            <a href="javascript:void(0);"
+                                                            <a 
                                                                 class="btn-ssm btn-primary-light">
                                                                 <i class="flaticon flaticon-pen"></i>
                                                                 Edit
                                                             </a>
-                                                            <a href="javascript:void(0);"
+                                                            <a 
                                                                 class="btn-ssm btn-danger-light">
                                                                 <i class="flaticon flaticon-delete"></i>
                                                                 Delete
@@ -1216,12 +1216,12 @@
                                                             <span>:2005</span>
                                                         </li>
                                                         <li class="mt-3">
-                                                            <a href="javascript:void(0);"
+                                                            <a 
                                                                 class="btn-ssm btn-primary-light">
                                                                 <i class="flaticon flaticon-pen"></i>
                                                                 Edit
                                                             </a>
-                                                            <a href="javascript:void(0);"
+                                                            <a 
                                                                 class="btn-ssm btn-danger-light">
                                                                 <i class="flaticon flaticon-delete"></i>
                                                                 Delete
@@ -1235,7 +1235,7 @@
                                 </div>
                                 <div class="tab-pane fade" id="nav-exp" role="tabpanel" aria-labelledby="nav-exp-tab">
                                     <div class="d-flex justify-content-end top-thead">
-                                        <a href="javascript:void(0);" class="btn btn-primary btn-sm"><i
+                                        <a  class="btn btn-primary btn-sm"><i
                                                 class="flaticon flaticon-add me-2"></i> Work
                                             Experience</a>
                                     </div>
@@ -1267,11 +1267,11 @@
                                             </ul>
                                             <ul class="list-unstyled">
                                                 <li class="flex-end">
-                                                    <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                    <a  class="btn-ssm btn-primary-light">
                                                         <i class="flaticon flaticon-pen"></i>
                                                         Edit
                                                     </a>
-                                                    <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                    <a  class="btn-ssm btn-danger-light">
                                                         <i class="flaticon flaticon-delete"></i>
                                                         Delete
                                                     </a>
@@ -1305,11 +1305,11 @@
                                             </ul>
                                             <ul class="list-unstyled">
                                                 <li class="flex-end">
-                                                    <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                    <a  class="btn-ssm btn-primary-light">
                                                         <i class="flaticon flaticon-pen"></i>
                                                         Edit
                                                     </a>
-                                                    <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                    <a  class="btn-ssm btn-danger-light">
                                                         <i class="flaticon flaticon-delete"></i>
                                                         Delete
                                                     </a>
@@ -1343,11 +1343,11 @@
                                             </ul>
                                             <ul class="list-unstyled">
                                                 <li class="flex-end">
-                                                    <a href="javascript:void(0);" class="btn-ssm btn-primary-light">
+                                                    <a  class="btn-ssm btn-primary-light">
                                                         <i class="flaticon flaticon-pen"></i>
                                                         Edit
                                                     </a>
-                                                    <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                    <a  class="btn-ssm btn-danger-light">
                                                         <i class="flaticon flaticon-delete"></i>
                                                         Delete
                                                     </a>
@@ -1359,7 +1359,7 @@
                                 <div class="tab-pane fade" id="nav-other" role="tabpanel"
                                     aria-labelledby="nav-other-tab">
                                     <div class="other-list">
-                                        <h4 class="heading">Remuneration <a href="javascript:void(0);">Add Expected
+                                        <h4 class="heading">Remuneration <a >Add Expected
                                                 Remuneration [+]</a></h4>
                                         <div class="exp-card mb-5">
                                             <ul class="list-unstyled">
@@ -1392,14 +1392,14 @@
                                             </ul>
                                             <ul class="list-unstyled">
                                                 <li class="flex-end">
-                                                    <a href="javascript:void(0);" class="btn-ssm btn-danger-light">
+                                                    <a  class="btn-ssm btn-danger-light">
                                                         <i class="flaticon flaticon-delete"></i>
                                                         Delete
                                                     </a>
                                                 </li>
                                             </ul>
                                         </div>
-                                        <h4 class="heading">Availability <a href="javascript:void(0);">Add Availability
+                                        <h4 class="heading">Availability <a >Add Availability
                                                 [+]</a></h4>
                                         <div class="table-responsive mb-5">
                                             <table class="table table-left border">
@@ -1415,7 +1415,7 @@
                                                 </tbody>
                                             </table>
                                         </div>
-                                        <h4 class="heading">Visa <a href="javascript:void(0);">Add Visa [+]</a></h4>
+                                        <h4 class="heading">Visa <a >Add Visa [+]</a></h4>
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="visa-card">
@@ -1781,7 +1781,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary-light btn-sm">Add</button>
+                        <button type="button" class="btn btn-primary-light btn-sm" @click="addskill">Add</button>
                         <button type="button" class="btn btn-danger-light btn-sm"
                             data-bs-dismiss="modal">Cancel</button>
                     </div>
@@ -1809,3 +1809,51 @@
         </div>
     </div>
 </template>
+<script>
+    export default {
+      name: 'profile',
+      data() {
+        return {
+            form: {
+                email: '',
+                password: '',
+                password_confirmation: '',
+                role_id: this.$route.query.role,
+                device_type: 'Web',
+                device_token: 'Token'
+            },
+            serverErrorMessage: false
+        }
+    },
+
+    
+      methods: {
+        Logout() {
+            const thisPaste = this
+            this.$apiAxios.logout(this.form).then((res) => {
+                    if ('message' in res)
+                        thisPaste.serverErrorMessage = res.message                    
+                       {{ thisPaste.$router.push('/')}}
+
+                })
+                .catch(function (error) {
+                    thisPaste.onError(thisPaste, error)
+                });
+           
+        },
+        addskill() {
+            const thisPaste = this
+            this.$apiAxios.addskills(this.form).then((res) => {
+                    if ('message' in res)
+                        thisPaste.serverErrorMessage = res.message                    
+                       {{ thisPaste.$router.push('/')}}
+
+                })
+                .catch(function (error) {
+                    thisPaste.onError(thisPaste, error)
+                });
+           
+        },
+    }
+}
+    </script>
